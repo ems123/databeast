@@ -4,7 +4,8 @@
 
 3. **Run the Project**
 - Run `npm start` from the root of your project to start a dev server.
-- Navigate to [http://localhost:3008/](http://localhost:3008/). 
+- Navigate to [http://localhost:3000/](http://localhost:3000/). 
 - The app will automatically reload if you change any of the source files.
 
 4. **Build project**
+- Run `npm run build`
