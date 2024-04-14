@@ -1,0 +1,11 @@
+.title-head-subscribe{
+	visibility: visible;
+	animation-delay: 0.3s;
+	animation-name: fadeInUp;
+}
+
+.text-head-subscribe{
+	visibility: visible;
+	animation-delay: 0.4s;
+	animation-name: fadeInUp;	
+}

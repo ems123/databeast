@@ -1,0 +1,58 @@
+/* ##### demo-video Area CSS ##### */
+.HomeDemo2 .demo-video{
+    position: relative;
+}
+.HomeDemo2 .demo-video .welcome-video-area{
+    margin-top: 0
+}
+@media (max-width: 992px){
+    .HomeDemo2 .vertical-social{
+        display: none !important;
+    }
+}
+
+.HomeDemo2 .vertical-social {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -20px;
+    background: #0d003b;
+    height: 370px !important;
+    margin-left: 30px;
+    border-radius: 40px;
+    padding: 30px 15px;
+    z-index: 999;
+    transition: 1s;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 4px 13px 0 rgba(168,67,253,.3);
+    overflow: hidden;
+    border-bottom: 3px solid #a843fd;
+}
+.HomeDemo2 .vertical-social li{
+    padding: 7px 0;
+    text-align: center;
+}
+.HomeDemo2 .vertical-social li a{
+    color: #fff;
+    opacity: .6;
+    font-size: 22px;
+}
+.HomeDemo2 .vertical-social li a:hover{
+    opacity: 1
+}
+
+.dream-btn.video-btn{
+    background-color: #4834d4;
+    width: 70px;
+    height: 70px !important;
+    color: #fff !important;
+    border-radius: 50% !important;
+    line-height: 70px !important;
+    padding: 0 !important;
+    text-align: center !important;
+    min-width: 70px !important;
+    font-size: 24px !important;
+}

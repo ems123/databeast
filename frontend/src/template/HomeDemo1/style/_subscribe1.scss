@@ -1,0 +1,117 @@
+/*
+* ----------------------------------------------------------------------------------------
+*  START Subscribe STYLE
+* ----------------------------------------------------------------------------------------
+*/
+.HomeDemo1 .subscribe{
+    position: relative;
+}
+.HomeDemo1 .subscribe .section-heading > p{
+    color: #eee
+}
+.HomeDemo1 .subscribe:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: url('../../../assets/img/core-img/wave-shap.png') no-repeat center center;
+    background-size: contain;
+    opacity: .5
+}
+.HomeDemo1 .subscribe .section-heading{
+    margin-bottom: 30px
+}
+
+.HomeDemo1 .subscribe .service-text{
+    padding-top: 0
+}
+.HomeDemo1 .subscribe .title-box{
+    margin-bottom: 30px
+}
+
+.HomeDemo1 .subscribe-wrapper {
+    padding: 60px;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background: #1d66f6;
+    box-shadow: 0 10px 80px rgba(15,62,153,.3);
+}
+.HomeDemo1 .telegram-text{
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+    position: relative;
+    z-index: 2
+}
+
+.HomeDemo1 .social-list{
+    display: inline-block;
+    margin-bottom: 0;
+    height: 40px;
+    position: relative;
+    z-index: 2;
+}
+.HomeDemo1 .social-list li{
+    float: left;
+    padding: 0 14px
+}
+.HomeDemo1 .social-list li a{
+    font-size: 34px;
+    color: #fff !important;
+    opacity: .8;
+    cursor: pointer;
+}
+.HomeDemo1 .social-list li a:hover{
+    opacity: 1
+}
+.HomeDemo1 .subscribe .buy-tokens i{
+    margin-right: 10px
+}
+.subscribe .dream-btn{
+    position: absolute !important;
+    top: -2px !important;
+    right: -10px !important;
+    min-width: 48px !important;
+    height: 48px !important;
+    padding: 0 !important;
+    border-color: #fff !important;
+}
+.subscribe .dream-btn:hover{
+    cursor: pointer;
+}
+.HomeDemo1 .button {
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    display: inline-block;
+    padding: 14px 40px;
+    font-size: 16px;
+    z-index: 2;
+    line-height: 1.25;
+    color: #25cbd3 !important;
+    background: #fff;
+    border: 0 solid;
+    border-radius: 40px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    user-select: none;
+    transition: 250ms all ease-in-out;
+    box-shadow: 0 3px 21px 4px rgba(41, 41, 58, 0.2);
+}
+.HomeDemo1 .button:hover{
+    background: #25cbd3;
+    color: #fff !important;
+}
+.HomeDemo1 .button i{
+    margin-right: 10px
+}

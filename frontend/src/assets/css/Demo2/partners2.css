@@ -1,0 +1,18 @@
+/* ##### Partners Area ##### */
+.partners{
+    padding: 0 0 70px
+}
+.partner-box{
+    border: 1px solid #25cbd3;
+    border-radius: 10px;
+    padding: 20px 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #0d003b;
+    margin-bottom: 30px;
+    transition: all .3s ease-in-out;
+}
+.partner-box:hover{
+    background: #25cbd3;
+    cursor: pointer;
+}
