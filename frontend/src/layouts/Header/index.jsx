@@ -53,7 +53,7 @@ const Header = () => {
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                     <li><a onClick={moveSmooth} href="#contact">Contact</a></li>
                   </ul>
-                  <a href="#" className="btn login-btn ml-50">Log in</a>
+                  <a href="#" className="btn login-btn ml-50">Try now</a>y
                 </div>
               </div>
             </nav>

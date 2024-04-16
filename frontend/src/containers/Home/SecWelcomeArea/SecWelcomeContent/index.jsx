@@ -6,14 +6,16 @@ function SecWelcomeContent({img}){
                   <span className="integration-icon">
                       <img src={img} width="24" height="24" alt="" />
                   </span>
-                  <span className="integration-text">Discover a new ways to enjoy your World!</span>
+                  <span className="integration-text">Decentralized Generative AI Labs!</span>
               </div>
           </div>
-          <h1>Buy & sell crypto easier than ever</h1>
+          <h1>Databeast AI Launching Soon!</h1>
           <p>
-              We have over 15 year exprience in business consultting arena.
-              We have over 15 year exprience in business consultting arena
-              and artficial intelligence.
+          At the forefront of the generative AI revolution, we harness the power of AI to predict the future of crypto and beyond.
+          <br></br>
+            <b>Our mission:</b> To democratize AI-driven analytics, making it accessible to all.
+            <br></br>
+            Join us in exploring new horizons of data intelligence.
           </p>
           <div className="dream-btn-group">
               <a href="#" className="btn dream-btn mr-3">Learn More</a>

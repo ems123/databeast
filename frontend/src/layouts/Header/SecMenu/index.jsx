@@ -26,7 +26,7 @@ const SecMenu = ({data}) => {
 	            	}
 	            </ul>
 
-	            <a href="#" className="btn login-btn ml-50">Log in</a>
+	            <a href="#" className="btn login-btn ml-50">Try now</a>
 	        </div>
 	    </div>
     );
