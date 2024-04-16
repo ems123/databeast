@@ -60,9 +60,10 @@ export const VerticalSocial = [
 ]
 
 export const HowItWorksInfo = [
-    {step:1 , title:"Powerfull Mobile and Online App"},
-    {step:2 , title:"Brings more Transparency and Speed"},
-    {step:3 , title:"Special for Multiple Use Capabilities"}
+    {step:1 , title:"Crypto & Blockchain AI", description:"Gain deeper insights into market trends with our AI-driven predictions, offering a clear path through the digital currency landscape."},
+    {step:2 , title:"Real Estate AI", description:"Unlock the potential of the real estate market with cutting-edge AI analysis, providing strategic insights into market dynamics, property valuations, and investment opportunities."},
+    {step:3 , title:"Sports Analytics", description:"Transform the game with predictive insights that give teams, coaches, and sports organizations a competitive edge."},
+    {step:4 , title:"Telecom Innovations", description:"Stay ahead in the fast-evolving world of telecommunications with AI that predicts trends, optimizes operations, and enhances customer experiences."},
 ]
 
 export const SingleCoolFact = [

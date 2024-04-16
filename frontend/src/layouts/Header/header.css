@@ -16,7 +16,7 @@
 .header-area.sticky {
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background-color: #281b87;
+    background-color: #0d003b;
     box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
     border-bottom: none;
 }
@@ -62,7 +62,7 @@
 }
 
 .classy-nav-container.sticky{
-    background-color: #281b87 !important;
+    background-color: #0d003b !important;
 }
 
 @media(max-width: 991px) {

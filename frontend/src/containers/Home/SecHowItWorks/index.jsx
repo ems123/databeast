@@ -5,8 +5,8 @@ const SecHowItWorks = ({data , imgPhone}) => {
   return (
       <section className="features section-padding-100-0">
         <SectionHeading
-            title='How it works'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
+            title='Areas where we work'
+            text='Where Innovation meets the future of Data Intelligence.            '
         />
         <div className="container">
           <div className="row">
@@ -22,7 +22,7 @@ const SecHowItWorks = ({data , imgPhone}) => {
                   <div className="inner-box">
                     <div className="step">{item.step}</div>
                     <h3><a href="#">{item.title}</a></h3>
-                    <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi assumenda beatae provident non hic eum dolores natus, vitae, quae, facere perferendis.</div>
+                    <div className="text">{item.description}</div>
                   </div>
                 </div>
               ))}

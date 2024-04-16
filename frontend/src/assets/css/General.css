@@ -43,8 +43,8 @@
 
 body {
     font-family: 'Poppins', sans-serif !important;
-    background-image: -webkit-linear-gradient(left, #1d0498, #341f97) !important;
-    background-image: linear-gradient(to right, #1d0498, #341f97) !important
+    background-image: -webkit-linear-gradient(left, #0d003b, #0d003b) !important;
+    background-image: linear-gradient(to right, #0d003b, #0d003b) !important
 }
 .darker-blue{
     background: linear-gradient(180deg,#240044 0,#0f0240 25%,#400959 40%,#0f0240 65%,#0f0240);
@@ -479,6 +479,7 @@ ol {
     font-size: 30px;
     text-transform: capitalize;
     margin-bottom: 15px;
+    color: #fff;
 }
 
 .section-heading > p {
