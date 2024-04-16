@@ -8,8 +8,8 @@ const SecContact = () => {
             <div className="row">
               <div className="col-12">
                 <SectionHeading
-                      title="Contact With Us"
-                      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo."
+                      title="Contact Us"
+                      text=""
                 />
               </div>
             </div>

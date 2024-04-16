@@ -23,10 +23,10 @@ const SecContent = () => {
             {/* Content Info */}
             <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
               <h5>Phone</h5>
-              <p>Mailing Address:xx00 E. Union Ave</p>
-              <p>Suite 1100. Denver, CO 80237</p>
-              <p>+999 90932 627</p>
-              <p>support@yourdomain.com</p>
+              <p>Address</p>
+              <p>Street</p>
+              <p>Contact No</p>
+              <p>Email</p>
             </div>
           </div>
         </div>
