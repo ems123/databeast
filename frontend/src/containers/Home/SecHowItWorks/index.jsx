@@ -3,7 +3,7 @@ import SectionHeading from '../../../components/SectionHeading'
 const SecHowItWorks = ({data , imgPhone}) => {
 
   return (
-      <section className="features section-padding-100-0">
+      <section className="features section-padding-100-0" id='about'>
         <SectionHeading
             title='Areas where we work'
             text='Where Innovation meets the future of Data Intelligence.            '

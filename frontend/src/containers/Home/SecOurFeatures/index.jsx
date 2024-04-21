@@ -4,7 +4,7 @@ import ServiceBlock from './ServiceBlock'
 const SecOurFeatures = ({data , imgPhone , Rings}) => {
 
   return (
-    <section className="features section-padding-100">
+    <section className="features section-padding-100" id='services'>
 
         <SectionHeading
             title='Databeast.ai Application across Industries '
