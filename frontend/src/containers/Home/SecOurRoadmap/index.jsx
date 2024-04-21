@@ -7,7 +7,7 @@ const SecOurRoadmap = ({data , img}) => {
     <section className="roadmap section-padding-100" style={{background: `url(${img}) center center / cover no-repeat`, backgroundSize: 'cover'}} id="roadmap">
         <SectionHeading
             title='ROADMAP'
-            text='Roadmap and milestones of DataBeast.aigit'
+            text='Roadmap and milestones of DataBeast.ai'
         />
         <div className="container-fluid">
           <div className="row">
