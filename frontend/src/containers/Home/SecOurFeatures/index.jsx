@@ -7,8 +7,8 @@ const SecOurFeatures = ({data , imgPhone , Rings}) => {
     <section className="features section-padding-100">
 
         <SectionHeading
-            title='Our Wallet Application'
-            text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
+            title='Databeast.ai Application across Industries '
+            text='Revolutionizing Industries with Decentralized AI'
         />
         <div className="container-fluid">
             <div className="row">
@@ -18,6 +18,7 @@ const SecOurFeatures = ({data , imgPhone , Rings}) => {
                             key={key}
                             classIco={item.classIco}
                             title={item.title}
+                            description={item.description}
                         />
                     ))}
                 </div>

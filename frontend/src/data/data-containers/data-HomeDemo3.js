@@ -50,13 +50,13 @@ import {
 } from '../../utils/allImgs'
 
 export const VerticalSocial = [
-    {nameIco:'fa fa-telegram'},
-    {nameIco:'fa fa-medium'},
-    {nameIco:'fa fa-facebook'},
-    {nameIco:'fa fa-twitter'},
-    {nameIco:'fa fa-github'},
-    {nameIco:'fa fa-instagram'},
-    {nameIco:'fa fa-linkedin'}
+    {nameIco:'fa fa-telegram', link: 'https://t.me/databeast_ai'},
+    {nameIco:'fa fa-medium', link:''},
+    {nameIco:'fa fa-facebook', link:'https://www.facebook.com/databeast_ai'},
+    {nameIco:'fa fa-twitter', link:'https://twitter.com/databeast_ai'},
+    {nameIco:'fa fa-github', link:''},
+    {nameIco:'fa fa-instagram', link:'https://www.instagram.com/databeast_ai'},
+    {nameIco:'fa fa-linkedin', link:''},
 ]
 
 export const HowItWorksInfo = [
@@ -123,11 +123,11 @@ export const service_single_content = [
 
 export const timelineInfo = [
     {
-        left:"10%",
+        left:"20%",
         ClassName:"data_cir cir_0",
-        date:"Q2 2017",
+        date:"Q2 2024",
         IsSpan:true,
-        TextSpan:"Emergence and design of the idea",
+        TextSpan:"Whitepaper release ",
         IsTowLi:false,
         TextTowLi1:"",
         TextTowLi2:"",
@@ -144,9 +144,9 @@ export const timelineInfo = [
 
     },
     {
-        left:"20%",
+        left:"40%",
         ClassName:"data_cir cir_1",
-        date:"Q3 2017",
+        date:"Q3 2024",
         IsSpan:false,
         TextSpan:"",
         IsTowLi:false,
@@ -157,22 +157,25 @@ export const timelineInfo = [
         TextThreeLi2:"",
         TextThreeLi3:"",
         IsFourLi:true,
-        TextFourLi1:"built our team",
-        TextFourLi2:"company establishment",
-        TextFourLi3:"legal issues setting",
-        TextFourLi4:" concept development",
+        TextFourLi1:"Token release on multiple platforms(Base,Ton and Runes)",
+        TextFourLi2:"Early adaptor program and referral program",
+        TextFourLi3:"Release of the crypto LLM(beta)on Bitcoin and Runes data.",
+        TextFourLi4:" Dev and Release of the Real Estate LLM",
         img:HomeDemo3RoadmapIcons2
 
     },
     {
-        left:"30%",
+        left:"60%",
         ClassName:"data_cir cir_2",
-        date:"Q4 2017",
+        date:"Q4 2024",
         IsSpan:false,
         TextSpan:"",
         IsTowLi:true,
-        TextTowLi1:'start development of the ealier version and crypto wallet version',
-        TextTowLi2:'negotiations on partnerships',
+        TextTowLi1:"Expand Crypto LLM to other blockchains",
+        TextTowLi2:"Partner with Sports clubs",
+        TextTowLi3:"Dev and Release of the Sports LLM",
+        TextTowLi4:"Dev and Release of the Fitness LLM",
+        TextTowLi5:"Refine Roadmap for 2025",
         IsThreeLi:false,
         TextThreeLi1:"",
         TextThreeLi2:"",
@@ -186,18 +189,20 @@ export const timelineInfo = [
 
     },
     {
-        left:"40%",
+        left:"80%",
         ClassName:"data_cir cir_3",
-        date:"Q1 2018",
+        date:"Q1 2025",
         IsSpan:false,
         TextSpan:"",
         IsTowLi:false,
         TextTowLi1:"",
         TextTowLi2:"",
         IsThreeLi:true,
-        TextThreeLi1:"website launch",
-        TextThreeLi2:"White Paper published",
-        TextThreeLi3:"Private and Pre-sale start",
+        TextThreeLi1:"Model Refinements ,Customizations.",
+        TextThreeLi2:"Additional industry Partnerships",
+        TextThreeLi3:"Launch of Travel AI LLM",
+        TextThreeLi3:"5-year strategy for Databeast AI",
+        TextThreeLi4:"Many more possibilities....",
         IsFourLi:false,
         TextFourLi1:"",
         TextFourLi2:"",
@@ -206,126 +211,152 @@ export const timelineInfo = [
         img:HomeDemo3RoadmapIcons4
 
     },
-    {
-        left:"50%",
-        ClassName:"data_cir cir_4 red_c",
-        date:"Q2 2018",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:true,
-        TextThreeLi1:"Crowdsale",
-        TextThreeLi2:"marketing campaign",
-        TextThreeLi3:"listing to the major exchanges",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons5
+    // {
+    //     left:"50%",
+    //     ClassName:"data_cir cir_4 red_c",
+    //     date:"Q2 2018",
+    //     IsSpan:false,
+    //     TextSpan:"",
+    //     IsTowLi:false,
+    //     TextTowLi1:"",
+    //     TextTowLi2:"",
+    //     IsThreeLi:true,
+    //     TextThreeLi1:"Crowdsale",
+    //     TextThreeLi2:"marketing campaign",
+    //     TextThreeLi3:"listing to the major exchanges",
+    //     IsFourLi:false,
+    //     TextFourLi1:"",
+    //     TextFourLi2:"",
+    //     TextFourLi3:"",
+    //     TextFourLi4:"",
+    //     img:HomeDemo3RoadmapIcons5
 
-    },
-    {
-        left:"60%",
-        ClassName:"data_cir cir_5 next",
-        date:"Q3 2018",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:true,
-        TextThreeLi1:"Crypto Wallet version release",
-        TextThreeLi2:"Testnet launch",
-        TextThreeLi3:" Platform ealier version development",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons6
+    // },
+    // {
+    //     left:"60%",
+    //     ClassName:"data_cir cir_5 next",
+    //     date:"Q3 2018",
+    //     IsSpan:false,
+    //     TextSpan:"",
+    //     IsTowLi:false,
+    //     TextTowLi1:"",
+    //     TextTowLi2:"",
+    //     IsThreeLi:true,
+    //     TextThreeLi1:"Crypto Wallet version release",
+    //     TextThreeLi2:"Testnet launch",
+    //     TextThreeLi3:" Platform ealier version development",
+    //     IsFourLi:false,
+    //     TextFourLi1:"",
+    //     TextFourLi2:"",
+    //     TextFourLi3:"",
+    //     TextFourLi4:"",
+    //     img:HomeDemo3RoadmapIcons6
 
-    },
-    {
-        left:"70%",
-        ClassName:"data_cir cir_6 next",
-        date:"Q4 2018",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:true,
-        TextThreeLi1:"Mobile App",
-        TextThreeLi2:"Explorer",
-        TextThreeLi3:"new partnerships and new marketplace support",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons7
+    // },
+    // {
+    //     left:"70%",
+    //     ClassName:"data_cir cir_6 next",
+    //     date:"Q4 2018",
+    //     IsSpan:false,
+    //     TextSpan:"",
+    //     IsTowLi:false,
+    //     TextTowLi1:"",
+    //     TextTowLi2:"",
+    //     IsThreeLi:true,
+    //     TextThreeLi1:"Mobile App",
+    //     TextThreeLi2:"Explorer",
+    //     TextThreeLi3:"new partnerships and new marketplace support",
+    //     IsFourLi:false,
+    //     TextFourLi1:"",
+    //     TextFourLi2:"",
+    //     TextFourLi3:"",
+    //     TextFourLi4:"",
+    //     img:HomeDemo3RoadmapIcons7
 
-    },
-    {
-        left:"80%",
-        ClassName:"data_cir cir_7 next",
-        date:"Q1 2019",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:true,
-        TextThreeLi1:"Mainnet launch",
-        TextThreeLi2:"Wallet beta-version release",
-        TextThreeLi3:"Masternodes implementation",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons8
+    // },
+    // {
+    //     left:"80%",
+    //     ClassName:"data_cir cir_7 next",
+    //     date:"Q1 2019",
+    //     IsSpan:false,
+    //     TextSpan:"",
+    //     IsTowLi:false,
+    //     TextTowLi1:"",
+    //     TextTowLi2:"",
+    //     IsThreeLi:true,
+    //     TextThreeLi1:"Mainnet launch",
+    //     TextThreeLi2:"Wallet beta-version release",
+    //     TextThreeLi3:"Masternodes implementation",
+    //     IsFourLi:false,
+    //     TextFourLi1:"",
+    //     TextFourLi2:"",
+    //     TextFourLi3:"",
+    //     TextFourLi4:"",
+    //     img:HomeDemo3RoadmapIcons8
 
-    },
-    {
-        left:"90%",
-        ClassName:"data_cir cir_8 next",
-        date:"Q2 2019",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:true,
-        TextTowLi1:"Platform integration to electronic marketplaces",
-        TextTowLi2:"Zero Fee",
-        IsThreeLi:false,
-        TextThreeLi1:"",
-        TextThreeLi2:"",
-        TextThreeLi3:"",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons9
+    // },
+    // {
+    //     left:"90%",
+    //     ClassName:"data_cir cir_8 next",
+    //     date:"Q2 2019",
+    //     IsSpan:false,
+    //     TextSpan:"",
+    //     IsTowLi:true,
+    //     TextTowLi1:"Platform integration to electronic marketplaces",
+    //     TextTowLi2:"Zero Fee",
+    //     IsThreeLi:false,
+    //     TextThreeLi1:"",
+    //     TextThreeLi2:"",
+    //     TextThreeLi3:"",
+    //     IsFourLi:false,
+    //     TextFourLi1:"",
+    //     TextFourLi2:"",
+    //     TextFourLi3:"",
+    //     TextFourLi4:"",
+    //     img:HomeDemo3RoadmapIcons9
 
-    }
+    // }
 ]
 
 export const ServiceBlock = [
     {
         classIco:"icon ti-mobile",
-        title:"Powerfull Mobile and Online App"
+        title:"Crypto Industry",
+        description: "Generative AI models are revolutionizing the cryptocurrency landscape by predicting price movements, simulating market responses. ",
     },
     {
         classIco:"icon ti-widget",
-        title:"Brings more Transparency and Speed"
+        title:"Real Estate",
+        description: "Generative AI is transforming real estate by creating accurate valuations, immersive virtual tours, insightful investment analysis." ,
     },
     {
         classIco:"icon ti-settings",
-        title:"Special for Multiple Use Capabilities"
+        title:"Sports",
+        description: "Generative AI is transforming sports by personalizing training, predicting injuries, simulating strategies, and engaging fans with unique content.",
     },
+    {
+        classIco:"icon ti-settings",
+        title:"Telecom",
+        description: "Generative AI is transforming telecom by optimizing network traffic, predicting equipment failures, preventing fraud, personalizing customer experiences.",
+    },
+    {
+        classIco:"icon ti-settings",
+        title:"Agriculture",
+        description:"Generative AI is revolutionizing agriculture by predicting crop yields, pests, and diseases, optimizing breeding, enabling precision farming, controlling machinery, simulating weather.",
+    },
+    {
+        classIco:"icon ti-settings",
+        title:"Marketing",
+        description:"Generative AI is transforming marketing with influencer targeting, customer profiling, personalized content, and campaign optimization."
+    },
+    {
+        classIco:"icon ti-settings",
+        title:"Fitness",
+        description:"Generative AI personalizes fitness with custom plans, AI coaches, progress tracking, nutrition, and engaging workouts."
+    },
+    
+
+
 ]
 
 export const SocialListIco = [
@@ -372,21 +403,30 @@ export const DocElementTitle = [
 
 export const TokenText = [
     {
-        text:'Lorem ipsum dolor sit amet, conse ctetur elit',
+        text: 'TOTAL Quantity: 10,000,000,000',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'Sed quis accumsan nisi Ut ut felis',
+        text:'15% Team and Seed',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'felis congue nisl hendrerit commodo',
+        text:'5% Airdrop to Community',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'arch nemo sequi rem saepe ad quasi ullam.',
+        text:'15% Marketing',
         img:HomeDemo3TokenIcon1
     },
+    {
+        text:'25% Development & Infrastructure',
+        img:HomeDemo3TokenIcon1
+    },
+    {
+        text:'40% Liquidity',
+        img:HomeDemo3TokenIcon1
+    },
+
 ]
 
 export const MissionData = [
@@ -407,44 +447,30 @@ export const MissionData = [
 export const TeamMember = [
     {
         img:HomeDemo3TeamImg1,
-        title:'Sunny khan',
-        text:'Executive Officer'
+        title:'Hanumantha Marakanti',
+        text:'ML/AI Engineer |E2E Architect|Oracle BRM|Product Engineering'
     },
     {
         img:HomeDemo3TeamImg2,
-        title:'Ajoy Das',
-        text:'Business Development'
+        title:'Vinay Kumar',
+        text:'Chief Architect and Principal AI Engineer'
     },
     {
         img:HomeDemo3TeamImg3,
-        title:'Afroza Mou',
-        text:'UX/UI Designer'
+        title:'Srikanth A',
+        text:'Chief Strategist'
     },
     {
         img:HomeDemo3TeamImg4,
-        title:'Lim Sarah',
-        text:'Head of Marketing'
+        title:'Bhaskar G',
+        text:'Chief Technical Officer'
     },
     {
         img:HomeDemo3TeamImg1,
-        title:'Sunny khan',
-        text:'Executive Officer'
+        title:'Kishore Y',
+        text:'Data Architect'
     },
-    {
-        img:HomeDemo3TeamImg2,
-        title:'Ajoy Das',
-        text:'Business Development'
-    },
-    {
-        img:HomeDemo3TeamImg3,
-        title:'Afroza Mou',
-        text:'UX/UI Designer'
-    },
-    {
-        img:HomeDemo3TeamImg4,
-        title:'Lim Sarah',
-        text:'Head of Marketing'
-    },
+   
 ]
 
 export const PartnersData = [

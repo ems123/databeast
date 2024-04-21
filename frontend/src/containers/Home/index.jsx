@@ -65,12 +65,12 @@ let HomeDemo3 = () => {
         {/* <SecDemoVideo img={HomeDemo3VideoBg4} /> */}
         {/* <div className="clearfix" /> */}
         {/* <SecOurServices data={service_single_content} /> */}
-        {/* <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} /> */}
-        {/* <SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} /> */}
+        <SecOurRoadmap data={timelineInfo} img={HomeDemo3BgRoadmap} />
+        <SecOurFeatures data={ServiceBlock} imgPhone={HomeDemo3ImgPhone} Rings={HomeDemo3RingsBg} />
         {/* <SecSubscribe data={SocialListIco} /> */}
         {/* <SecFAQ_Timeline FQAInfo={FQAInfo} DocElementTitle={DocElementTitle} /> */}
-        {/* <SecDistribution img={HomeDemo3Allocation} data={TokenText} /> */}
-        {/* <SecTeam data={TeamMember} /> */}
+        <SecDistribution img={HomeDemo3Allocation} data={TokenText} />
+        <SecTeam data={TeamMember} />
         {/* <SecPartners data={PartnersData} /> */}
       </div>
       <Footer />

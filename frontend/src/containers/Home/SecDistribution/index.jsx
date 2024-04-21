@@ -8,8 +8,8 @@ const SecDistribution = ({img , data}) => {
         <div className="container">
             
             <SectionHeading
-                title='Our ICO Distribution'
-                text='Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis accumsan nisi Ut ut felis congue nisl hendrerit commodo.'
+                title='TOKENOMICS'
+                text='Detailed distribution of the Databeast.ai utility token.'
             />
 
             <div className="col-lg-6 col-md-6 col-sm-12">

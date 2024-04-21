@@ -1,4 +1,4 @@
-const ServiceBlock = ({classIco , title}) => {
+const ServiceBlock = ({classIco , title, description}) => {
 
   return (
     <div className="services-block-four">
@@ -7,7 +7,7 @@ const ServiceBlock = ({classIco , title}) => {
                 <span className={classIco}></span>
             </div>
             <h3><a href="#">{title}</a></h3>
-            <div className="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium modi assumenda beatae provident non hic eum dolores natus, vitae, quae, facere perferendis quas tempore. Consequuntur commodi facilis sed similique.</div>
+            <div className="text">{description}</div>
         </div>
     </div>
   );
