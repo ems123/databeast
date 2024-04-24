@@ -20,7 +20,7 @@ const SecHowItWorks = ({data , imgPhone}) => {
             <div className="services-column col-lg-6 offset-lg-0 col-md-10 offset-md-1 col-xs-10 offset-xs-1">
               {/*Services Block Four*/}
               {data && data.map((item , key) => (
-                <Link to='crypto-detail/'>
+                <Link to={item.url}>
                 <div className="services-block-four how" key={key}>
                   <div className="inner-box">
                     <div className="step">{item.step}</div>
