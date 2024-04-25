@@ -65,7 +65,6 @@ export const HowItWorksInfo = [
     {step:3 , title:"Sports Analytics", description:"Transform the game with predictive insights that give teams, coaches, and sports organizations a competitive edge."},
     
 ]
-
 export const SingleCoolFact = [
     {
         img:HomeDemo3IcoPlatforms1,
