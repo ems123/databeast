@@ -4,26 +4,26 @@
 *  START Roadmap STYLE
 * ----------------------------------------------------------------------------------------
 */
-.HomeDemo3 .timeline-split{
+.HomeDemo1 .timeline-split{
     position: relative;
     width: 100%
 }
-.HomeDemo3 .timeline-split .timeline {
+.HomeDemo1 .timeline-split .timeline {
    position: relative;
    padding: 50px;
    overflow: hidden
 }
-.HomeDemo3 .timeline-split .timeline h3{
+.HomeDemo1 .timeline-split .timeline h3{
     font-size: 22px;
     color: #25cbd3
 }
-.HomeDemo3 .timeline-split .timeline span{
+.HomeDemo1 .timeline-split .timeline span{
     color: #666;
     display: block;
     margin-bottom: 10px
 }
 /*top circle */
-.HomeDemo3 .timeline-split .timeline::before {
+.HomeDemo1 .timeline-split .timeline::before {
    content: "";
    width: 20px;
    height: 20px;
@@ -36,7 +36,7 @@
    left: calc(50% - 10px);
 }
 /*vertival line */
-.HomeDemo3 .timeline-split .timeline::after {
+.HomeDemo1 .timeline-split .timeline::after {
    content: "";
    width: 2px;
    height: 4000px;
@@ -49,7 +49,7 @@
 }
 
 /*timeline block */
-.HomeDemo3 .timeline-split .timeline .block {
+.HomeDemo1 .timeline-split .timeline .block {
    width: 50%;
     padding: 30px;
     background: #0d003b;
@@ -58,7 +58,7 @@
     text-align: left;
     position: relative;
 }
-.HomeDemo3 .timeline .block .date{
+.HomeDemo1 .timeline .block .date{
     padding: 5px 10px;
     display: inline-block;
     background: #25cbd3;
@@ -67,13 +67,13 @@
     font-size: 13px;
     border-radius: 15px;
 }
-.HomeDemo3 .timeline .block .between{
+.HomeDemo1 .timeline .block .between{
     padding: 5px 10px;
     display: inline-block;
     color: #fff;
 }
 /*block marker */
-.HomeDemo3 .timeline-split .timeline .block::before {
+.HomeDemo1 .timeline-split .timeline .block::before {
    content: "";
    width: 10px;
    height: 10px;
@@ -83,7 +83,7 @@
    top: 30px;
 }
 .timeline-split .timeline .block.block-left::after,
-.HomeDemo3 .timeline-split .timeline .block.block-right::after {
+.HomeDemo1 .timeline-split .timeline .block.block-right::after {
    content: "";
     width: 95px;
     height: 2px;
@@ -93,70 +93,70 @@
     z-index: -1;
     right: -78px;
 }
-.HomeDemo3 .timeline-split .timeline .block.block-right::after{
+.HomeDemo1 .timeline-split .timeline .block.block-right::after{
     left: -80px
 }
 /*left block */
-.HomeDemo3 .timeline-split .timeline .block.block-left {
+.HomeDemo1 .timeline-split .timeline .block.block-left {
    text-align: right;
 }
-.HomeDemo3 .timeline-split .timeline .block.block-left::before {
+.HomeDemo1 .timeline-split .timeline .block.block-left::before {
    right: -80px;
 }
-.HomeDemo3 .timeline .block p{
+.HomeDemo1 .timeline .block p{
     margin-bottom: 0
 }
 /*right block */
-.HomeDemo3 .timeline-split .timeline .block.block-right {
+.HomeDemo1 .timeline-split .timeline .block.block-right {
    text-align: left;
    margin-left: 50%;
    margin-left: calc(50% + 74px);
 }
-.HomeDemo3 .timeline-split .timeline .block.block-right::before {
+.HomeDemo1 .timeline-split .timeline .block.block-right::before {
    left: -80px;
 }
 /*decrease the timeline heading text */
 @media (max-width: 992px) {
-   .HomeDemo3 .timeline-split .timeline {
+   .HomeDemo1 .timeline-split .timeline {
       padding: 50px 20px;
    }
 
-   .HomeDemo3 .timeline-split .timeline h3 {
+   .HomeDemo1 .timeline-split .timeline h3 {
       font-size: 19px;
    }
 }
 /*change timeline layout to fit tiny screen size */
 @media (max-width: 992px) {
-    .HomeDemo3 .timeline-split .timeline .block.block-left::after {
+    .HomeDemo1 .timeline-split .timeline .block.block-left::after {
         left: -80px;
     }
-   .HomeDemo3 .timeline-split .timeline::after {
+   .HomeDemo1 .timeline-split .timeline::after {
       left: 9px;
    }
-   .HomeDemo3 .timeline-split .timeline::before {
+   .HomeDemo1 .timeline-split .timeline::before {
       left: 0;
    }
-   .HomeDemo3 .timeline-split .timeline .circle {
+   .HomeDemo1 .timeline-split .timeline .circle {
       left: 2px;
    }
-   .HomeDemo3 .timeline-split .timeline .block {
+   .HomeDemo1 .timeline-split .timeline .block {
       width: 100% !important;
       text-align: left;
       padding-left: 20px;
    }
-   .HomeDemo3 .timeline-split .timeline .block::before {
+   .HomeDemo1 .timeline-split .timeline .block::before {
       left: -15px;
    }
-   .HomeDemo3 .timeline-split .timeline .block.block-left {
+   .HomeDemo1 .timeline-split .timeline .block.block-left {
       text-align: left;
    }
-   .HomeDemo3 .timeline-split .timeline .block.block-right {
+   .HomeDemo1 .timeline-split .timeline .block.block-right {
       margin-left: 0;
    }
-   .HomeDemo3 .timeline-split .timeline .block.block-right::before {
+   .HomeDemo1 .timeline-split .timeline .block.block-right::before {
       left: -15px;
    }
-   .HomeDemo3 .mt-30{
+   .HomeDemo1 .mt-30{
     margin-top: 30px
    }
 }

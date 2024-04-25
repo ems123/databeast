@@ -63,7 +63,7 @@ export const HowItWorksInfo = [
     {step:1 , title:"Crypto & Blockchain AI", description:"Gain deeper insights into market trends with our AI-driven predictions, offering a clear path through the digital currency landscape."},
     {step:2 , title:"Real Estate AI", description:"Unlock the potential of the real estate market with cutting-edge AI analysis, providing strategic insights into market dynamics, property valuations, and investment opportunities."},
     {step:3 , title:"Sports Analytics", description:"Transform the game with predictive insights that give teams, coaches, and sports organizations a competitive edge."},
-    {step:4 , title:"Telecom Innovations", description:"Stay ahead in the fast-evolving world of telecommunications with AI that predicts trends, optimizes operations, and enhances customer experiences."},
+    
 ]
 
 export const SingleCoolFact = [
@@ -121,96 +121,96 @@ export const service_single_content = [
 
 ]
 
-export const timelineInfo = [
-    {
-        left:"20%",
-        ClassName:"data_cir cir_0",
-        date:"Q2 2024",
-        IsSpan:true,
-        TextSpan:"Whitepaper release ",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:false,
-        TextThreeLi1:"",
-        TextThreeLi2:"",
-        TextThreeLi3:"",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons1
+// export const timelineInfo = [
+//     {
+//         left:"20%",
+//         ClassName:"data_cir cir_0",
+//         date:"Q2 2024",
+//         IsSpan:true,
+//         TextSpan:"Whitepaper release ",
+//         IsTowLi:false,
+//         TextTowLi1:"",
+//         TextTowLi2:"",
+//         IsThreeLi:false,
+//         TextThreeLi1:"",
+//         TextThreeLi2:"",
+//         TextThreeLi3:"",
+//         IsFourLi:false,
+//         TextFourLi1:"",
+//         TextFourLi2:"",
+//         TextFourLi3:"",
+//         TextFourLi4:"",
+//         img:HomeDemo3RoadmapIcons1
 
-    },
-    {
-        left:"40%",
-        ClassName:"data_cir cir_1",
-        date:"Q3 2024",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:false,
-        TextThreeLi1:"",
-        TextThreeLi2:"",
-        TextThreeLi3:"",
-        IsFourLi:true,
-        TextFourLi1:"Token release on multiple platforms(Base,Ton and Runes)",
-        TextFourLi2:"Early adaptor program and referral program",
-        TextFourLi3:"Release of the crypto LLM(beta)on Bitcoin and Runes data.",
-        TextFourLi4:" Dev and Release of the Real Estate LLM",
-        img:HomeDemo3RoadmapIcons2
+//     },
+//     {
+//         left:"40%",
+//         ClassName:"data_cir cir_1",
+//         date:"Q3 2024",
+//         IsSpan:false,
+//         TextSpan:"",
+//         IsTowLi:false,
+//         TextTowLi1:"",
+//         TextTowLi2:"",
+//         IsThreeLi:false,
+//         TextThreeLi1:"",
+//         TextThreeLi2:"",
+//         TextThreeLi3:"",
+//         IsFourLi:true,
+//         TextFourLi1:"Token release on multiple platforms(Base,Ton and Runes)",
+//         TextFourLi2:"Early adaptor program and referral program",
+//         TextFourLi3:"Release of the crypto LLM(beta)on Bitcoin and Runes data.",
+//         TextFourLi4:" Dev and Release of the Real Estate LLM",
+//         img:HomeDemo3RoadmapIcons2
 
-    },
-    {
-        left:"60%",
-        ClassName:"data_cir cir_2",
-        date:"Q4 2024",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:true,
-        TextTowLi1:"Expand Crypto LLM to other blockchains",
-        TextTowLi2:"Partner with Sports clubs",
-        TextTowLi3:"Dev and Release of the Sports LLM",
-        TextTowLi4:"Dev and Release of the Fitness LLM",
-        TextTowLi5:"Refine Roadmap for 2025",
-        IsThreeLi:false,
-        TextThreeLi1:"",
-        TextThreeLi2:"",
-        TextThreeLi3:"",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons3
+//     },
+//     {
+//         left:"60%",
+//         ClassName:"data_cir cir_2",
+//         date:"Q4 2024",
+//         IsSpan:false,
+//         TextSpan:"",
+//         IsTowLi:true,
+//         TextTowLi1:"Expand Crypto LLM to other blockchains",
+//         TextTowLi2:"Partner with Sports clubs",
+//         TextTowLi3:"Dev and Release of the Sports LLM",
+//         TextTowLi4:"Dev and Release of the Fitness LLM",
+//         TextTowLi5:"Refine Roadmap for 2025",
+//         IsThreeLi:false,
+//         TextThreeLi1:"",
+//         TextThreeLi2:"",
+//         TextThreeLi3:"",
+//         IsFourLi:false,
+//         TextFourLi1:"",
+//         TextFourLi2:"",
+//         TextFourLi3:"",
+//         TextFourLi4:"",
+//         img:HomeDemo3RoadmapIcons3
 
-    },
-    {
-        left:"80%",
-        ClassName:"data_cir cir_3",
-        date:"Q1 2025",
-        IsSpan:false,
-        TextSpan:"",
-        IsTowLi:false,
-        TextTowLi1:"",
-        TextTowLi2:"",
-        IsThreeLi:true,
-        TextThreeLi1:"Model Refinements ,Customizations.",
-        TextThreeLi2:"Additional industry Partnerships",
-        TextThreeLi3:"Launch of Travel AI LLM",
-        TextThreeLi3:"5-year strategy for Databeast AI",
-        TextThreeLi4:"Many more possibilities....",
-        IsFourLi:false,
-        TextFourLi1:"",
-        TextFourLi2:"",
-        TextFourLi3:"",
-        TextFourLi4:"",
-        img:HomeDemo3RoadmapIcons4
+//     },
+//     {
+//         left:"80%",
+//         ClassName:"data_cir cir_3",
+//         date:"Q1 2025",
+//         IsSpan:false,
+//         TextSpan:"",
+//         IsTowLi:false,
+//         TextTowLi1:"",
+//         TextTowLi2:"",
+//         IsThreeLi:true,
+//         TextThreeLi1:"Model Refinements ,Customizations.",
+//         TextThreeLi2:"Additional industry Partnerships",
+//         TextThreeLi3:"Launch of Travel AI LLM",
+//         TextThreeLi3:"5-year strategy for Databeast AI",
+//         TextThreeLi4:"Many more possibilities....",
+//         IsFourLi:false,
+//         TextFourLi1:"",
+//         TextFourLi2:"",
+//         TextFourLi3:"",
+//         TextFourLi4:"",
+//         img:HomeDemo3RoadmapIcons4
 
-    },
+    // },
     // {
     //     left:"50%",
     //     ClassName:"data_cir cir_4 red_c",
@@ -316,24 +316,40 @@ export const timelineInfo = [
     //     img:HomeDemo3RoadmapIcons9
 
     // }
+// ]
+export const timelineInfo = [
+    {
+        timelineClass:"block block-left",
+        title:'Q2 2024',
+        date_from:'April, 2024',
+        date_to:'June, 2024',
+        text:['Whitepaper release', 'Release of the Crypto LLM(testnet)on bitcoin and Runes data','Community building','Seed Round Investments','Smart contract development','Establish Key Partnership']
+    },
+    {
+        timelineClass:"block block-right mt-30",
+        title:'Q3 2024',
+        date_from:'July, 2024',
+        date_to:'September, 2024',
+        text:['Token launch on multiple platforms(Base,Ton and Runes)','Easy adaptor program and referral program','Release of the Crypto LLM(Beta)on bitcoin and Runes data','Dev and Release of the Real Estate LLM',]
+    },
+    {
+        timelineClass:"block block-left mt-30",
+        title:'Q3 2024',
+        date_from:'October 2024',
+        date_to:'December 2024',
+        text:['Expant Crypto LLM to other Blockchains', 'Partner with Sports Clubs','Dev and Release of the Sports LLM','Dev and Release of the Fitness LLM','Refine Roadmap for 2025',]
+    },
+    {
+        timelineClass:"block block-right mt-30",
+        title:'2025',
+        date_from:'January',
+        date_to:'December',
+        text:['Model Requirements,Customizations','Additional Industry Partnerships','Launch of Travel AI LLM','5-year strategy for Databeast AI','Many more possibilities',]
+    }
 ]
 
 export const ServiceBlock = [
-    {
-        classIco:"icon ti-mobile",
-        title:"Crypto Industry",
-        description: "Generative AI models are revolutionizing the cryptocurrency landscape by predicting price movements, simulating market responses. ",
-    },
-    {
-        classIco:"icon ti-widget",
-        title:"Real Estate",
-        description: "Generative AI is transforming real estate by creating accurate valuations, immersive virtual tours, insightful investment analysis." ,
-    },
-    {
-        classIco:"icon ti-settings",
-        title:"Sports",
-        description: "Generative AI is transforming sports by personalizing training, predicting injuries, simulating strategies, and engaging fans with unique content.",
-    },
+    
     {
         classIco:"icon ti-settings",
         title:"Telecom",
