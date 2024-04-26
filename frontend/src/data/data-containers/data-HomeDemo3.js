@@ -422,7 +422,11 @@ export const TokenText = [
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'15% Team and Seed',
+        text:'35% Presale',
+        img:HomeDemo3TokenIcon1
+    },
+    {
+        text:'15% Liquidity',
         img:HomeDemo3TokenIcon1
     },
     {
@@ -430,17 +434,23 @@ export const TokenText = [
         img:HomeDemo3TokenIcon1
     },
     {
+        text:'5% Partners and Advisors',
+        img:HomeDemo3TokenIcon1
+    },
+    {
         text:'15% Marketing',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'25% Development & Infrastructure',
+        text:'15% Team and Seed',
         img:HomeDemo3TokenIcon1
     },
     {
-        text:'40% Liquidity',
+        text:'10% Reserved for Future Developments',
         img:HomeDemo3TokenIcon1
     },
+
+
 
 ]
 

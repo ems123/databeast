@@ -2,11 +2,12 @@ import {FooterLogo} from '../../utils/allImgs'
 
 export const footerLogo = FooterLogo
 
+const Li_A = ({IcoName, link}) => <li><a href={link}><i className={IcoName} aria-hidden="true"></i></a></li>
 export const IcoName = [
-	{IcoName:'fa fa-facebook'},
-	{IcoName:'fa fa-twitter'},
+	{IcoName:'fa fa-facebook',link: "https://www.facebook.com/databeast_ai"},
+	{IcoName:'fa fa-twitter',link:"https://twitter.com/databeast_ai"},
 	{IcoName:'fa fa-google-plus'},
-	{IcoName:'fa fa-instagram'},
+	{IcoName:'fa fa-instagram',link:"https://www.instagram.com/databeast_ai"},
 	{IcoName:'fa fa-linkedin'}
 ]
 

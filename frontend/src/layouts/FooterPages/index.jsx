@@ -1,10 +1,13 @@
+
 import{
   FooterLogo,
   FooterPattern,
   FooterBg1
 } from '../../utils/allImgs'
 
+
 import './footer.css'
+
 
 import SecContact from './SecContact'
 import SecIco from './SecIco'
