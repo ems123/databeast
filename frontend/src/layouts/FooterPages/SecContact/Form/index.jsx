@@ -1,9 +1,44 @@
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+
 const Form = () => {
+	const form = useRef();
+
+	const sendEmail = (e) => {
+		e.preventDefault();
+	
+		emailjs
+		  .sendForm('service_nurkd1g', 'template_oyv0abf', form.current, {
+			publicKey: 'f7iOpXXf4b4dgx09t',
+		  })
+		  .then(
+			() => {
+			  console.log('SUCCESS!');
+			  document.getElementById('success_fail_info').innerHTML = 'Email sent successfully!';
+			  document.getElementById('success_fail_info').style.color = 'green';
+			  document.getElementById('success_fail_info').style.display = 'block';
+			  setTimeout(() => {
+				document.getElementById('success_fail_info').style.display = 'none';
+			  }, 5000);
+			  form.current.reset();
+			},
+			(error) => {
+			  console.log('FAILED...', error);
+			  document.getElementById('success_fail_info').innerHTML = 'Failed to send email!';
+			  document.getElementById('success_fail_info').style.color = 'red';
+			  document.getElementById('success_fail_info').style.display = 'block';
+			  setTimeout(() => {
+				document.getElementById('success_fail_info').style.display = 'none';
+			  }, 5000);
+			},
+		  );
+	  };
+
     return (
 	    <div className="row justify-content-center">
 	      <div className="col-12 col-md-10 col-lg-8">
 	        <div className="contact_form">
-	          <form action="#" method="post" id="main_contact_form" noValidate>
+	          <form ref={form} onSubmit={sendEmail}>
 	            <div className="row">
 	              <div className="col-12">
 	                <div id="success_fail_info" />
