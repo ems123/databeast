@@ -5,7 +5,7 @@ const SecIco = ({logo}) => {
             {/* Copywrite */}
             <div className="copywrite_text wow fadeInUp" data-wow-delay="0.2s">
               <div className="footer-logo">
-                <a href="#"><img src={logo} alt="logo" /></a>
+                <a href="#"><img src={logo} alt="logo" /><span className='text-white' style={{fontSize: 20}}>DATABEAST.AI</span></a>
               </div>
               <p>
               At Databeast.ai, our mission is to democratize access to advanced AI analytics across industries, leveraging the power of decentralized computing to ensure privacy, security, and eDiciency. Our decentralized approach powers solutions that are robust and eDective, secure, and privacy-focused, adhering to the highest data integrity standards.
