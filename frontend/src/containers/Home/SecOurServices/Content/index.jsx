@@ -1,6 +1,9 @@
-const Content = ({img , title}) => {
+import { Link } from "react-router-dom";
+
+const Content = ({img , title, url}) => {
 
   return (
+    <Link to={url}>
     <div className="col-12 col-sm-6 col-lg-4" data-aos="fade-up">
         
         <div className="service_single_content text-left mb-100">
@@ -12,6 +15,7 @@ const Content = ({img , title}) => {
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque quam, maximus ut accumsan ut, posuere sit Lorem ipsum.</p>
         </div>
     </div>
+    </Link>
   );
 }
 

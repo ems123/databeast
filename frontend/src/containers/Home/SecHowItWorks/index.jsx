@@ -24,7 +24,7 @@ const SecHowItWorks = ({data , imgPhone}) => {
                 <div className="services-block-four how" key={key}>
                   <div className="inner-box">
                     <div className="step">{item.step}</div>
-                    <h3><a href="#">{item.title}</a></h3>
+                    <h3>{item.title}</h3>
                     <div className="text">{item.description}</div>
                   </div>
                 </div>

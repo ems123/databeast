@@ -19,6 +19,7 @@ const SecOurServices = ({data}) => {
                         key={key}
                         img={item.img}
                         title={item.title}
+                        url={item.url}
                     />
                 ))}
             </div>

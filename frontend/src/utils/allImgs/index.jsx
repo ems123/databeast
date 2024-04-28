@@ -182,6 +182,7 @@ import HomeDemo3TeamImg1 from "../../assets/img/team-img/1.png"
 import HomeDemo3TeamImg2 from "../../assets/img/team-img/2.png"
 import HomeDemo3TeamImg3 from "../../assets/img/team-img/3.png"
 import HomeDemo3TeamImg4 from "../../assets/img/team-img/4.png"
+import HomeDemo3TeamImg5 from "../../assets/img/team-img/5.png"
 
 import HomeDemo3Partners1 from "../../assets/img/partners/1.png"
 import HomeDemo3Partners2 from "../../assets/img/partners/2.png"
@@ -199,6 +200,8 @@ import HomeDemo3Partners12 from "../../assets/img/partners/12.png"
 import HomeDemo3BlogImg1 from "../../assets/img/blog-img/1.jpg"
 import HomeDemo3BlogImg2 from "../../assets/img/blog-img/2.jpg"
 import HomeDemo3BlogImg3 from "../../assets/img/blog-img/3.jpg"
+import CryptoDetailImg from "../../assets/img/detail/crypto.webp"
+
 
 export {
 	HomeDemo1,
@@ -238,6 +241,8 @@ export {
 	HomeDemo1TeamImg2,
 	HomeDemo1TeamImg3,
 	HomeDemo1TeamImg4,
+	HomeDemo3TeamImg5,
+
 
 	HomeDemo1Partners1,
 	HomeDemo1Partners2,
@@ -365,5 +370,6 @@ export {
 	HomeDemo3Partners12,
 	HomeDemo3BlogImg1,
 	HomeDemo3BlogImg2,
-	HomeDemo3BlogImg3
+	HomeDemo3BlogImg3,
+	CryptoDetailImg
 }

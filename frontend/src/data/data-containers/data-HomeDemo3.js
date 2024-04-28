@@ -19,6 +19,8 @@ import {
     HomeDemo3TeamImg2,
     HomeDemo3TeamImg3,
     HomeDemo3TeamImg4,
+    HomeDemo3TeamImg5,
+    
     
     HomeDemo3Partners1,
     HomeDemo3Partners2,
@@ -60,9 +62,9 @@ export const VerticalSocial = [
 ]
 
 export const HowItWorksInfo = [
-    {step:1 , title:"Crypto & Blockchain AI", description:"Gain deeper insights into market trends with our AI-driven predictions, offering a clear path through the digital currency landscape."},
-    {step:2 , title:"Real Estate AI", description:"Unlock the potential of the real estate market with cutting-edge AI analysis, providing strategic insights into market dynamics, property valuations, and investment opportunities."},
-    {step:3 , title:"Sports Analytics", description:"Transform the game with predictive insights that give teams, coaches, and sports organizations a competitive edge."},
+    {step:1 , title:"Crypto & Blockchain AI", description:"Gain deeper insights into market trends with our AI-driven predictions, offering a clear path through the digital currency landscape.", url:"crypto-detail"},
+    {step:2 , title:"Real Estate AI", description:"Unlock the potential of the real estate market with cutting-edge AI analysis, providing strategic insights into market dynamics, property valuations, and investment opportunities.", url:""},
+    {step:3 , title:"Sports Analytics", description:"Transform the game with predictive insights that give teams, coaches, and sports organizations a competitive edge.", url:""},
     
 ]
 export const SingleCoolFact = [
@@ -353,21 +355,25 @@ export const ServiceBlock = [
         classIco:"icon ti-settings",
         title:"Telecom",
         description: "Generative AI is transforming telecom by optimizing network traffic, predicting equipment failures, preventing fraud, personalizing customer experiences.",
+        url: ""
     },
     {
         classIco:"icon ti-settings",
         title:"Agriculture",
         description:"Generative AI is revolutionizing agriculture by predicting crop yields, pests, and diseases, optimizing breeding, enabling precision farming, controlling machinery, simulating weather.",
+        url:""
     },
     {
         classIco:"icon ti-settings",
         title:"Marketing",
-        description:"Generative AI is transforming marketing with influencer targeting, customer profiling, personalized content, and campaign optimization."
+        description:"Generative AI is transforming marketing with influencer targeting, customer profiling, personalized content, and campaign optimization.",
+        url:""
     },
     {
         classIco:"icon ti-settings",
         title:"Fitness",
-        description:"Generative AI personalizes fitness with custom plans, AI coaches, progress tracking, nutrition, and engaging workouts."
+        description:"Generative AI personalizes fitness with custom plans, AI coaches, progress tracking, nutrition, and engaging workouts.",
+        url:""
     },
     
 
@@ -491,7 +497,7 @@ export const TeamMember = [
         text:'Chief Technical Officer'
     },
     {
-        img:HomeDemo3TeamImg1,
+        img:HomeDemo3TeamImg5,
         title:'Kishore Y',
         text:'Data Architect'
     },
