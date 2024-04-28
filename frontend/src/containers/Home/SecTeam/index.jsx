@@ -14,7 +14,7 @@ const SecTeam = ({data}) => {
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row align-items-center justify-content-center">
                 {data && data.map((item , key) => (
                     <div className="col-12 col-sm-6 col-lg-3" data-aos="fade-up">
                         <div className="single-team-member">

@@ -28,7 +28,7 @@ import HomeDemo3Services4 from "../../assets/img/services/4.svg"
 import HomeDemo3Services5 from "../../assets/img/services/5.svg"
 import HomeDemo3Services6 from "../../assets/img/services/6.svg"
 
-import HomeDemo3ImgPhone from "../../assets/img/banner2.webp"
+import HomeDemo3ImgPhone from "../../assets/img/core-img/ring.png"
 import HomeDemo3RingsBg from "../../assets/img/core-img/rings-bg.png"
 
 import HomeDemo3Allocation from "../../assets/img/core-img/allocation.png"
