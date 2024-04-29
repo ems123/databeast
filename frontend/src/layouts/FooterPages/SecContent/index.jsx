@@ -21,7 +21,7 @@ const SecContent = () => {
             {/* Content Info */}
             <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.4s">
               <h5>CONTACT US</h5>
-              <p>Email</p>
+              <p>Email: <a className="text-white" href="mailto:social@databeast.ai">social@databeast.ai</a></p>
             </div>
           </div>
         </div>
