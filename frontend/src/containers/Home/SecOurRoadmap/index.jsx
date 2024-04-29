@@ -4,7 +4,7 @@ import Timeline from './Timeline'
 const SecOurRoadmap = ({data}) => {
 
   return (
-    <section className="roadmap" style={{paddingBottom:0}} id="roadmap">
+    <section className="roadmap" style={{paddingTop:30}} id="roadmap">
         <SectionHeading
             title='ROADMAP'
             text='Roadmap and Milestones of Databeast.ai'
