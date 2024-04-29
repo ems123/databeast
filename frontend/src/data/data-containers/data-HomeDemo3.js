@@ -52,13 +52,12 @@ import {
 } from '../../utils/allImgs'
 
 export const VerticalSocial = [
-    {nameIco:'fa fa-telegram', link: 'https://t.me/databeast_ai'},
-    {nameIco:'fa fa-medium', link:''},
-    {nameIco:'fa fa-facebook', link:'https://www.facebook.com/databeast_ai'},
-    {nameIco:'fa fa-twitter', link:'https://twitter.com/databeast_ai'},
-    {nameIco:'fa fa-github', link:''},
-    {nameIco:'fa fa-instagram', link:'https://www.instagram.com/databeast_ai'},
-    {nameIco:'fa fa-linkedin', link:''},
+    {nameIco:'fa-brands fa-telegram', link: 'https://t.me/databeast_ai'},
+    {nameIco:'fa-brands fa-discord', link:'https://discord.com/invite/6uBjGKSU5G'},
+    {nameIco:'fa-brands fa-facebook', link:'https://www.facebook.com/databeast_ai'},
+    {nameIco:'fa-brands fa-twitter', link:'https://twitter.com/databeast_ai'},
+    {nameIco:'fa-brands fa-instagram', link:'https://www.instagram.com/databeast_ai'},
+    
 ]
 
 export const HowItWorksInfo = [
@@ -383,9 +382,8 @@ export const ServiceBlock = [
 export const SocialListIco = [
     {icoName:"fa fa-facebook-square"},
     {icoName:"fa fa-twitter-square"},
-    {icoName:"fa fa-github-square"},
     {icoName:"fa fa-instagram"},
-    {icoName:"fa fa-medium"}
+    {icoName:"fa fa-discord"},
 ]
 
 export const FQAInfo = [
@@ -479,7 +477,7 @@ export const TeamMember = [
     {
         img:HomeDemo3TeamImg1,
         title:'Hanumantha Marakanti',
-        text:'ML/AI Engineer |E2E Architect|Oracle BRM|Product Engineering'
+        text:'CEO| ML/AI Engineer |E2E Architect|Oracle BRM|Product Engineering'
     },
     {
         img:HomeDemo3TeamImg2,
@@ -494,7 +492,7 @@ export const TeamMember = [
     {
         img:HomeDemo3TeamImg4,
         title:'Bhaskar G',
-        text:'Chief Technical Officer'
+        text:'Chief Technology Officer'
     },
     {
         img:HomeDemo3TeamImg5,

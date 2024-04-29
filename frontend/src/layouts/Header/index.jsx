@@ -29,7 +29,7 @@ const Header = () => {
         <div className="classy-nav-container breakpoint-off">
           <div className="container">
             <nav className="classy-navbar justify-content-between" id="dreamNav">
-              <a className="nav-brand" href="#"><img src={Logo} alt="logo" /></a>
+              <a className="nav-brand" href="https://databeast.ai"><img src={Logo} alt="logo" /></a>
               <div className="classy-navbar-toggler">
                 <span className="navbarToggler" onClick={addActiveClass}>
                     <span />
@@ -48,8 +48,8 @@ const Header = () => {
                   <ul id="nav">
                     <li><a onClick={moveSmooth} href="#home">Home</a></li>
                     <li><a onClick={moveSmooth} href="#about">About</a></li>
-                    <li><a onClick={moveSmooth} href="#services">Services</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>
+                    <li><a onClick={moveSmooth} href="#services">Services</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                     <li><a onClick={moveSmooth} href="#contact">Contact</a></li>
                   </ul>

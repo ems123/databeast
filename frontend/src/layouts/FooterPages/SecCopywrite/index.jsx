@@ -11,9 +11,9 @@ const SecCopywrite = ({img}) => {
           <div className="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
             <a href="https://www.facebook.com/databeast_ai"><i className="fa fa-facebook" aria-hidden="true" /></a>
             <a href="https://twitter.com/databeast_ai"> <i className="fa fa-twitter" aria-hidden="true" /></a>
-            <a href="#"><i className="fa fa-google-plus" aria-hidden="true" /></a>
             <a href="https://www.instagram.com/databeast_ai"><i className="fa fa-instagram" aria-hidden="true" /></a>
-            <a href="#"><i className="fa fa-linkedin" aria-hidden="true" /></a>
+            <a href="https://discord.com/invite/6uBjGkSU5G"><i className="fa fa-discord" aria-hidden="true" /></a>
+            
           </div>
         </div>
     );

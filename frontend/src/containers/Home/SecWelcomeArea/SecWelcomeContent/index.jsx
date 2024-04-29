@@ -6,7 +6,7 @@ function SecWelcomeContent({img}){
                   <span className="integration-icon">
                       <img src={img} width="24" height="24" alt="" />
                   </span>
-                  <span className="integration-text">Unleash the power of Decentralized Generative AI </span>
+                  <span className="integration-text">Unleash the power of Decentralized AI </span>
               </div>
           </div>
           <h1>Databeast AI Launching Soon!</h1>

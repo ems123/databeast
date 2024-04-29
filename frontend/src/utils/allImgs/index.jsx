@@ -41,6 +41,8 @@ import HomeDemo1TokenIcon1 from "../../assets/img/svg/token-icon-1.svg"
 import HomeDemo1TokenIcon2 from "../../assets/img/svg/token-icon-2.svg"
 import HomeDemo1TokenIcon3 from "../../assets/img/svg/token-icon-3.svg"
 import HomeDemo1TokenIcon4 from "../../assets/img/svg/token-icon-4.svg"
+import HomeDemo1TokenIcon5 from "../../assets/img/svg/token-icon-5.svg"
+
 
 import HomeDemo1TeamImg1 from "../../assets/img/team-img/1.png"
 import HomeDemo1TeamImg2 from "../../assets/img/team-img/2.png"
@@ -236,6 +238,7 @@ export {
 	HomeDemo1TokenIcon2,
 	HomeDemo1TokenIcon3,
 	HomeDemo1TokenIcon4,
+	HomeDemo1TokenIcon5,
 
 	HomeDemo1TeamImg1,
 	HomeDemo1TeamImg2,
@@ -297,6 +300,8 @@ export {
 	HomeDemo2TokenIcon2,
 	HomeDemo2TokenIcon3,
 	HomeDemo2TokenIcon4,
+	
+
 	HomeDemo2TeamImg1,
 	HomeDemo2TeamImg2,
 	HomeDemo2TeamImg3,
