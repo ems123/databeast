@@ -29,7 +29,7 @@ const Header = () => {
         <div className="classy-nav-container breakpoint-off">
           <div className="container">
             <nav className="classy-navbar justify-content-between" id="dreamNav">
-              <a className="nav-brand" href="https://databeast.ai"><img src={Logo} alt="logo" /></a>
+              <a className="nav-brand" href="https://databeast.ai"><img src={Logo} alt="logo" /><span className='text-white' style={{fontSize: 20}}>DATABEAST.AI</span></a>
               <div className="classy-navbar-toggler">
                 <span className="navbarToggler" onClick={addActiveClass}>
                     <span />

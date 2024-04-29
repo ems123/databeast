@@ -15,7 +15,7 @@ function PreloaderContainer(){
 	            <meta name="robots" content="noindex, follow" />
 	            <meta
 	                name="description"
-	                content="Hope – Health &amp; Medical React JS Template"
+	                content="Databeast AI &amp;"
 	            />
 	            <meta
 	                name="viewport"
