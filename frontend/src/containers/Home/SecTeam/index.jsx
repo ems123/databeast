@@ -25,12 +25,7 @@ const SecTeam = ({data}) => {
                                 <h5>{item.title}</h5>
                                 <p>{item.text}</p>
                             </div>
-                            <div className="team-social-icon">
-                                <a href="#"><i className="fa fa-twitter"></i></a>
-                                <a href="#"><i className="fa fa-instagram"></i></a>
-                                <a href="#"><i className="fa fa-facebook"></i></a>
-                                <a href="#"><i className="fa fa-skype"></i></a>
-                            </div>
+                            
                         </div>
                     </div>
                 ))}
