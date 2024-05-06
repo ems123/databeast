@@ -7,8 +7,8 @@ const SecIco = ({logo}) => {
               <div className="footer-logo">
                 <a href="#"><img src={logo} alt="logo" /><span className='text-white' style={{fontSize: 20}}>DATABEAST.AI</span></a>
               </div>
-              <p>
-              At Databeast.ai, our mission is to democratize access to advanced AI analytics across industries, leveraging the power of decentralized computing to ensure privacy, security, and eDiciency. Our decentralized approach powers solutions that are robust and eDective, secure, and privacy-focused, adhering to the highest data integrity standards.
+              <p> 
+              At Databeast.ai, our mission is to democratize access to advanced AI analytics across industries, leveraging the power of decentralized computing to ensure privacy, security, and efficiency. Our decentralized approach powers solutions that are robust and effective, secure, and privacy-focused, adhering to the highest data integrity standards.
               </p>
             </div>
             {/* Social Icon */}

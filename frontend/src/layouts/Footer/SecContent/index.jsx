@@ -14,8 +14,11 @@ const SecContent = () => {
             {/* Content Info */}
             <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">
               <h5>PRIVACY &amp; TOS</h5>
+
               
               <a href><p>Privacy Policy</p></a>
+              <a href><p>WhitePaper </p></a>
+
              
             </div>
             {/* Content Info */}

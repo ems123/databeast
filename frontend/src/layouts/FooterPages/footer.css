@@ -37,13 +37,16 @@
 }
 
 .copywrite_text > p {
+    margin-top: 0%;
     margin-bottom: 10px;
     color: #fff;
-    font-size: 13px;
+    font-size: 12 px;
+    text-align: justify;
 }
 
 .copywrite_text > p > a {
     color: #fff;
+    
 }
 
 .footer-social-info a i {

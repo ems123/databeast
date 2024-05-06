@@ -16,6 +16,7 @@ const SecContent = () => {
               <h5>PRIVACY &amp; TOS</h5>
               
               <a href><p>Privacy Policy</p></a>
+              <a href><p>WhitePaper</p></a>
               
             </div>
             {/* Content Info */}
