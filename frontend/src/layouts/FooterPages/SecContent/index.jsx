@@ -16,7 +16,7 @@ const SecContent = () => {
               <h5>PRIVACY &amp; TOS</h5>
               
               <a href><p>Privacy Policy</p></a>
-              <a href><p>WhitePaper</p></a>
+              <a href="https://drive.google.com/file/d/1EL5UcVG20nKwf8y7yoODCwNlhQKOFw8C/view" target="_blank"><p>White Paper</p></a>
               
             </div>
             {/* Content Info */}

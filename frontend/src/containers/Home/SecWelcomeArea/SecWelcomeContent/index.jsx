@@ -18,8 +18,8 @@ function SecWelcomeContent({img}){
             Join us in exploring new horizons of data intelligence.
           </p>
           <div className="dream-btn-group">
-              <a href="#" className="btn dream-btn mr-3">Learn More</a>
-              <a href="#" className="btn dream-btn">Contact Us</a>
+              <a href="#services" className="btn dream-btn mr-3">Learn More</a>
+              <a href="#contact" className="btn dream-btn">Contact Us</a>
           </div>
       </div>
   )

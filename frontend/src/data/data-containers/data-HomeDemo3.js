@@ -477,7 +477,7 @@ export const TeamMember = [
     {
         img:HomeDemo3TeamImg1,
         title:'Hanumantha Marakanti',
-        text:'CEO| ML/AI Engineer |E2E Architect|Oracle BRM|Product Engineering'
+        text:'CEO| FOUNDER'
     },
     {
         img:HomeDemo3TeamImg2,

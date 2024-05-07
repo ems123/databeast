@@ -17,7 +17,7 @@ const SecContent = () => {
 
               
               <a href><p>Privacy Policy</p></a>
-              <a href><p>WhitePaper </p></a>
+              <a href><p>White Paper </p></a>
 
              
             </div>

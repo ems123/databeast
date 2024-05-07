@@ -46,14 +46,14 @@ const Header = () => {
                 </div>
                 <div className="classynav">
                   <ul id="nav">
-                    <li><a onClick={moveSmooth} href="#home">Home</a></li>
+                    <li><a onClick={moveSmooth} href="https://databeast.ai">Home</a></li>
                     <li><a onClick={moveSmooth} href="#about">About</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>
                     <li><a onClick={moveSmooth} href="#services">Services</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                     <li><a onClick={moveSmooth} href="#contact">Contact</a></li>
                   </ul>
-                  <a href="#" className="btn login-btn ml-50">Try now</a>y
+                  <a href="/try-now" className="btn login-btn ml-50">Try Now</a>
                 </div>
               </div>
             </nav>

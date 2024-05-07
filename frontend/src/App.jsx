@@ -6,6 +6,7 @@ import Aos from 'aos'
 import Home from './pages/Home'
 import CryptoDetail from './pages/CryptoDetail'
 import MarketingDetail from './pages/MarketingDetail'
+import TryNow from './pages/TryNow'
 
 import 'aos/dist/aos.css';
 import './assets/css/General.css';
@@ -39,6 +40,7 @@ const App = () => {
           <Route path="/" exact component={Home} />   
           <Route path="/crypto-detail" exact component={CryptoDetail} />  
           <Route path="/marketing-detail" exact component={MarketingDetail} />
+          <Route path="/try-now" exact component={TryNow} />
           
 
   			</Switch>
