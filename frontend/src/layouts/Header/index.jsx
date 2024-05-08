@@ -50,6 +50,7 @@ const Header = () => {
                     <li><a onClick={moveSmooth} href="#about">About</a></li>
                     <li><a onClick={moveSmooth} href="#roadmap">Roadmap</a></li>
                     <li><a onClick={moveSmooth} href="#services">Services</a></li>
+                    <li><a onClick={moveSmooth} href="https://databeast.ai/whitepaper.pdf">White Paper</a></li>
                     <li><a onClick={moveSmooth} href="#team">Team</a></li>
                     <li><a onClick={moveSmooth} href="#contact">Contact</a></li>
                   </ul>

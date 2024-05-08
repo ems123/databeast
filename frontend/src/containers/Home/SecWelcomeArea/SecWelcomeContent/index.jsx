@@ -19,7 +19,7 @@ function SecWelcomeContent({img}){
           </p>
           <div className="dream-btn-group">
               <a href="#services" className="btn dream-btn mr-3">Learn More</a>
-              <a href="#contact" className="btn dream-btn">Contact Us</a>
+              <a href="https://databeast.ai/whitepaper.pdf" className="btn dream-btn">View White Paper</a>
           </div>
       </div>
   )
