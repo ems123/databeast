@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../layouts/Header';
 import Footer from '../layouts/FooterPages';  
 import { auto } from '@popperjs/core';
+
 import { CryptoDetailImg } from '../utils/allImgs';
 
 
@@ -9,17 +10,18 @@ const ServiceDetail = () => {
   return (
     <div>
       <Header />
-      <div className='container' style={{ textAlign: 'justify'}}>
-      <h5 className='text-white' style={{margin: auto}}>Crypto Detail</h5>
-      <img className='' src={CryptoDetailImg}></img>
-      <div className='text-white' style={{margin: auto, }}>
+      <div className='container text-white' style={{ marginTop: 100}}>
+      <h3 className='text-center' style={{margin: auto}}>Crypto Detail</h3>
+      <img className='pt-5 pb-3' src={CryptoDetailImg}></img>
+      <div style={{margin: auto, textAlign: 'justify'}}>
                 
       
-      <p>Generative AI in the cryptocurrency sector leverages vast datasets,including price data, blockchain transactions, and DeFi volumes, to build predictive models that enhance decision-making. It can analyze information in white papers and social media patterns to anticipate market trends and provide insights. This technology enables the creation of dynamic customer models that adapt based on current market conditions and predictive analytics. Overall, generative AI empowers users with a comprehensive, data-driven approach to navigating the complex cryptocurrency markets. <br />
+      <p className='text-white'>Generative AI in the cryptocurrency sector leverages vast datasets,including price data, blockchain transactions, and DeFi volumes, to build predictive models that enhance decision-making. It can analyze information in white papers and social media patterns to anticipate market trends and provide insights. This technology enables the creation of dynamic customer models that adapt based on current market conditions and predictive analytics. Overall, generative AI empowers users with a comprehensive, data-driven approach to navigating the complex cryptocurrency markets. <br />
 
 
       <h2> How generative AI can be used in crypto data analytics ?</h2></p>
       <ol list-style-type = 'square'>
+
       <li>Generative AI models excel at synthesizing vast amounts of historical transaction data to predict future cryptocurrency price movements with remarkable accuracy.</li>
       <li>By generating simulated trading scenarios, these AI systems help investors understand potential market responses under different conditions.</li>
       <li>The technology can autonomously generate reports detailing anomalies and patterns in blockchain data, enabling timely decision-making.</li>

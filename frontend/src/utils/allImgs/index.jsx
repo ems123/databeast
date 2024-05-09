@@ -72,7 +72,7 @@ import HomeDemo3Partners12 from "../../assets/img/partners/12.png"
 import HomeDemo3BlogImg1 from "../../assets/img/blog-img/1.jpg"
 import HomeDemo3BlogImg2 from "../../assets/img/blog-img/2.jpg"
 import HomeDemo3BlogImg3 from "../../assets/img/blog-img/3.jpg"
-import CryptoDetailImg from "../../assets/img/detail/crypto.webp"
+import CryptoDetailImg from "../../assets/img/detail/cryptodetail.jpg"
 
 
 export {
