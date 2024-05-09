@@ -7,6 +7,12 @@ import Home from './pages/Home'
 import CryptoDetail from './pages/CryptoDetail'
 import MarketingDetail from './pages/MarketingDetail'
 import TryNow from './pages/TryNow'
+import RealEstateDetail from './pages/RealEstateDetail'
+import SportsDetail from './pages/SportsDetail'
+import TelecomDetail from './pages/TelecomDetail'
+import AgricultureDetail from './pages/AgricultureDetail'
+import FitnessDetail from './pages/FitnessDetail'
+
 
 import 'aos/dist/aos.css';
 import './assets/css/General.css';
@@ -41,6 +47,16 @@ const App = () => {
           <Route path="/crypto-detail" exact component={CryptoDetail} />  
           <Route path="/marketing-detail" exact component={MarketingDetail} />
           <Route path="/try-now" exact component={TryNow} />
+          <Route path="/realestate-detail" exact component={RealEstateDetail} />
+          <Route path="/sports-detail" exact component={SportsDetail} />
+          <Route path="/telecom-detail" exact component={TelecomDetail} />
+          <Route path="/agriculture-detail" exact component={AgricultureDetail} />
+          <Route path="/marketing-detail" exact component={MarketingDetail} />
+          <Route path="/fitness-detail" exact component={FitnessDetail} />
+
+
+
+          
           
 
   			</Switch>

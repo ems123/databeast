@@ -22,7 +22,7 @@ const SecHowItWorks = ({data , imgPhone}) => {
               {data && data.map((item , key) => (
                 <Link to={item.url}>
                 <div className="services-block-four how" key={key}>
-                  <div className="inner-box">
+                  <div className="inner-box" style={{color:'white'}}>
                     <div className="step">{item.step}</div>
                     <h3>{item.title}</h3>
                     <div className="text">{item.description}</div>

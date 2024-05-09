@@ -19,6 +19,7 @@ const SecOurFeatures = ({data , imgPhone , Rings}) => {
                             classIco={item.classIco}
                             title={item.title}
                             description={item.description}
+                        link = {item.url}
                         />
                     ))}
                 </div>
