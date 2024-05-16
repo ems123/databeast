@@ -8,9 +8,18 @@ const ServiceDetail = () => {
   const [inputValue, setInputValue] = useState("");
   const [chatLog, setChatLog] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const [isEmpty, setIsEmpty] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
+
+    if (!inputValue.trim()) {
+      // If input value is empty, set isEmpty state to true
+      setIsEmpty(true);
+      return;
+    }
+
+    setIsEmpty(false);
 
     setChatLog((prevChatLog) => [
       ...prevChatLog,
@@ -24,7 +33,7 @@ const ServiceDetail = () => {
 
   const sendMessage = async (message) => {
     // const apiKey = ""; // Replace with your actual API key
-    const url = "https://api.openai.com/v1/chat/completions";
+    const url = "https://brmtools.cloud/aibot";
 
     const data = {
       model: "gpt-3.5-turbo",
@@ -107,7 +116,10 @@ const ServiceDetail = () => {
                     className="form-control flex-grow-1 bg-transparent text-white border-0"
                     placeholder="Type your message..."
                     value={inputValue}
-                    onChange={(e) => setInputValue(e.target.value)}
+                    onChange={(e) => {
+                      setInputValue(e.target.value);
+                      setIsEmpty(false); // Reset isEmpty state when input value changes
+                    }}
                   />
                   <button
                     type="submit"
@@ -116,6 +128,7 @@ const ServiceDetail = () => {
                     Ask
                   </button>
                 </div>
+                {isEmpty && <p className="text-danger">Message is required!</p>}
               </form>
             </div>
           </div>
