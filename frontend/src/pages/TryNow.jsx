@@ -134,8 +134,7 @@ const ServiceDetail = () => {
           </div>
         </div>
       </div>
-
-      <Footer />
+      <Footer showContact={false} />
     </div>
   );
 };

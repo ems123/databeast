@@ -152,14 +152,14 @@ const CryptocrisisDetail = () => {
                           <div>
                             <div
                               className="font-weight-bold"
-                              style={{ fontSize: "12px" }}
+                              style={{ fontSize: "10px" }}
                             >
                               {item?.name}
                             </div>
                             <div>
                               <span
                                 className="text-sm"
-                                style={{ fontSize: "12px" }}
+                                style={{ fontSize: "10px" }}
                               >
                                 {item.price} {item.currency}
                               </span>
@@ -169,7 +169,7 @@ const CryptocrisisDetail = () => {
                                     ? "text-success"
                                     : "text-danger"
                                 }`}
-                                style={{ fontSize: "12px" }}
+                                style={{ fontSize: "10px" }}
                               >
                                 {item.percent_change_24h}% / 24h
                               </div>
@@ -193,7 +193,7 @@ const CryptocrisisDetail = () => {
                       </h1>
                       <div
                         className="bg-white mt-2"
-                        style={{ height: "2px" }}
+                        style={{ height: "1px" }}
                       ></div>
                     </div>
                     <div className="row">
@@ -215,14 +215,14 @@ const CryptocrisisDetail = () => {
                           <div>
                             <div
                               className="font-weight-bold"
-                              style={{ fontSize: "12px" }}
+                              style={{ fontSize: "10px" }}
                             >
                               {item?.name}
                             </div>
                             <div>
                               <span
                                 className="text-sm"
-                                style={{ fontSize: "12px" }}
+                                style={{ fontSize: "10px" }}
                               >
                                 {item.price} {item.currency}
                               </span>
@@ -232,7 +232,7 @@ const CryptocrisisDetail = () => {
                                     ? "text-success"
                                     : "text-danger"
                                 }`}
-                                style={{ fontSize: "12px" }}
+                                style={{ fontSize: "10px" }}
                               >
                                 {item.percent_change_24h}% / 24h
                               </div>
