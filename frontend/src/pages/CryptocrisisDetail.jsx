@@ -193,7 +193,7 @@ const CryptocrisisDetail = () => {
                       </h1>
                       <div
                         className="bg-white mt-2"
-                        style={{ height: "1px" }}
+                        style={{ height: "2px" }}
                       ></div>
                     </div>
                     <div className="row">

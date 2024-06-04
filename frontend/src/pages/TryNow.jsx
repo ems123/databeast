@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/FooterPages";
-import { auto } from "@popperjs/core";
 import axios from "axios";
 
 const ServiceDetail = () => {
@@ -14,7 +13,6 @@ const ServiceDetail = () => {
     event.preventDefault();
 
     if (!inputValue.trim()) {
-      // If input value is empty, set isEmpty state to true
       setIsEmpty(true);
       return;
     }
@@ -32,29 +30,30 @@ const ServiceDetail = () => {
   };
 
   const sendMessage = async (message) => {
-    // const apiKey = ""; // Replace with your actual API key
-    const url = "https://brmtools.cloud/aibot";
+    const apiKey = "70dd4b3f5b53c38499804e3499761573";
+    const url = "https://databeastapp.techhimalaya.com.np/chat/";
 
     const data = {
-      model: "gpt-3.5-turbo",
-      messages: [{ role: "user", content: message }],
+      question: message,
     };
 
     const headers = {
       "Content-Type": "application/json",
-      // Authorization: `Bearer ${apiKey}`,
+      Authorization: `Bearer ${apiKey}`,
     };
 
     try {
+      setIsLoading(true);
       const response = await axios.post(url, data, { headers });
-      const botResponse = response.data.choices[0].message.content;
+      const botResponse = response.data.answer;
       setChatLog((prevChatLog) => [
         ...prevChatLog,
         { type: "system", message: botResponse },
       ]);
     } catch (error) {
       console.error("Error:", error);
-      // Handle the error
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -65,21 +64,18 @@ const ServiceDetail = () => {
         className="container welcome_content"
         style={{ marginTop: 100, marginBottom: 100 }}
       >
-        <h5 className="text-white text-center" style={{ margin: auto }}>
+        <h5 className="text-white text-center" style={{ margin: "auto" }}>
           DATABEAST AI
         </h5>
 
-        <div className="text-white" style={{ margin: auto }}>
+        <div className="text-white" style={{ margin: "auto" }}>
           {/* main content from here */}
           <div className="container mx-auto">
-            <div className="d-flex flex-column ">
+            <div className="d-flex flex-column">
               <h1 className=" text-center py-3 font-bold display-4">
                 Ask a question
               </h1>
-              <div
-                className="flex-grow-1 p-4"
-                style={{ maxHeight: "300px", overflowY: "auto" }}
-              >
+              <div className="flex-grow-1 p-4">
                 <div className="d-flex flex-column gap-3">
                   {chatLog.map((message, index) => (
                     <div
@@ -90,12 +86,6 @@ const ServiceDetail = () => {
                           : "justify-content-start"
                       }`}
                     >
-                      {isLoading && (
-                        <div className="spinner-border text-dark" role="status">
-                          <span class="visually-hidden">Thinking...</span>
-                        </div>
-                      )}
-
                       <div
                         className={`${
                           message.type === "user"
@@ -107,10 +97,17 @@ const ServiceDetail = () => {
                       </div>
                     </div>
                   ))}
+                  {isLoading && (
+                    <div className="d-flex justify-content-end">
+                      <div className="spinner-grow text-primary" role="status">
+                        <span className="visually-hidden">Thinking...</span>
+                      </div>
+                    </div>
+                  )}
                 </div>
               </div>
               <form onSubmit={handleSubmit} className="p-4">
-                <div className="d-flex border  border-dark rounded">
+                <div className="d-flex border border-dark rounded">
                   <input
                     type="text"
                     className="form-control flex-grow-1 bg-transparent text-white border-0"
@@ -123,7 +120,7 @@ const ServiceDetail = () => {
                   />
                   <button
                     type="submit"
-                    className="btn btn-primary rounded px-4 py-2 font-weight-bold "
+                    className="btn btn-primary rounded px-4 py-2 font-weight-bold"
                   >
                     Ask
                   </button>

@@ -13,12 +13,10 @@ import TelecomDetail from "./pages/TelecomDetail";
 import AgricultureDetail from "./pages/AgricultureDetail";
 import FitnessDetail from "./pages/FitnessDetail";
 import CryptocrisisDetail from "./pages/CryptocrisisDetail";
-
 import "aos/dist/aos.css";
 import "./assets/css/General.css";
 import "./assets/css/bootstrap.min.css";
 import "./assets/css/responsive.css";
-
 import "bootstrap/dist/js/bootstrap.bundle.min";
 
 const App = () => {
@@ -60,11 +58,7 @@ const App = () => {
         <Route path="/agriculture-detail" exact component={AgricultureDetail} />
         <Route path="/marketing-detail" exact component={MarketingDetail} />
         <Route path="/fitness-detail" exact component={FitnessDetail} />
-        <Route
-          path="/crypto-prices"
-          exact
-          component={CryptocrisisDetail}
-        />
+        <Route path="/crypto-prices" exact component={CryptocrisisDetail} />
       </Switch>
     </div>
   );
