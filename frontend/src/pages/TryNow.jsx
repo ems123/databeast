@@ -5,8 +5,8 @@ import axios from "axios";
 
 const ServiceDetail = () => {
   const DEMO_MODELS_LIST = {
-    whitepaper: "https://databeastapp.techhimalaya.com.np/chat/",
-    bitcoin: " https://databeastapp.techhimalaya.com.np/bitcoin/",
+    databeast: "https://databeastapp.techhimalaya.com.np/chat/",
+    bitcoin: "https://databeastapp.techhimalaya.com.np/bitcoin/",
     ethereum: "https://databeastapp.techhimalaya.com.np/ethereum/",
   };
 
@@ -15,6 +15,13 @@ const ServiceDetail = () => {
   const [chatLog, setChatLog] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   const [isEmpty, setIsEmpty] = useState(false);
+
+  const handleActiveModelChange = (modelName, clearLogs = true) => {
+    setActiveModel(modelName);
+    if (clearLogs) {
+      setChatLog([]);
+    }
+  };
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -71,59 +78,54 @@ const ServiceDetail = () => {
         className="container welcome_content"
         style={{ marginTop: 100, marginBottom: 100 }}
       >
-        <div style={{ margin: "auto" }}>
-          {/* main content from here */}
-          <div
-            className="container-fluid vh-100 d-flex flex-column"
-            style={{ minHeight: 500, paddingTop: 50 }}
-          >
-            <div className="row flex-grow-1 d-flex">
-              {/* Sidebar */}
-              <div
-                className="col-2 rounded bg-transparent d-flex flex-column p-0"
-                style={{
-                  backgroundColor: "#d0e8ff",
-                }} /* Change this to the desired color */
-              >
-                <ul
-                  className="list-group rounded-1"
-                  aria-orientation="vertical"
-                >
-                  {Object.keys(DEMO_MODELS_LIST).map((key) => (
-                    <li
-                      style={{
-                        userSelect: "none",
-                        cursor: "pointer",
-                        backgroundColor:
-                          activeModel === key ? "#0056b3" : "#0d003b",
-                        borderColor:
-                          activeModel === key ? "#0056b3" : "#0d003b",
-                        color: "#FFFFFF", // Ensure text color is white for both active and inactive items
-                      }}
-                      key={key}
-                      className={`list-group-item ${
-                        activeModel === key ? "active" : ""
-                      }`}
-                      onClick={() => setActiveModel(key)}
-                    >
-                      {key.charAt(0).toUpperCase() + key.slice(1)}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+        <h3 className="text-white text-center py-2 ml-4">WhitePaper AI</h3>
+        <h5 className="text-white text-center py-2">
+          {activeModel !== "whitepaper"}
+        </h5>
+        <div className="container-fluid vh-100">
+          <div className="row">
+            {/* Sidebar on all screens (left side) */}
+            <div className="col-12 col-md-3 col-lg-2">
+              <ul className="list-group">
+                {Object.keys(DEMO_MODELS_LIST).map((key) => (
+                  <li
+                    key={key}
+                    className={`list-group-item ${
+                      activeModel === key ? "active" : ""
+                    }`}
+                    onClick={() => handleActiveModelChange(key)}
+                    style={{
+                      cursor: "pointer",
+                      backgroundColor:
+                        activeModel === key ? "#0056b3" : "#0d003b",
+                      borderColor: activeModel === key ? "#0056b3" : "#0d003b",
+                      color: "#FFFFFF",
+                      paddingLeft: "15px", // Adjust padding-left to cover the text
+                      paddingRight: "15px", // Adjust padding-right to cover the text
+                      marginBottom: "5px", // Add margin-bottom for spacing between items
+                    }}
+                  >
+                    {key.charAt(0).toUpperCase() + key.slice(1)}
+                  </li>
+                ))}
+              </ul>
+            </div>
 
-              {/* Main Content */}
+            {/* Main Content */}
+            <div className="col-md-10">
               <div
-                className="col-10 d-flex flex-column"
-                style={{ maxHeight: 500, overflow: "auto" }}
+                className="card bg-secondary text-white"
+                style={{ minHeight: "500px" }}
               >
-                <div className="d-flex py-1 justify-content-center align-items-center  text-white text-center ">
-                  <h4>{`${
-                    activeModel.charAt(0).toUpperCase() + activeModel.slice(1)
-                  } Chat`}</h4>
+                <div className="card-header d-flex justify-content-center align-items-center">
+                  <h5 className="text-center">
+                    {activeModel !== "whitepaper"
+                      ? activeModel.charAt(0).toUpperCase() +
+                        activeModel.slice(1)
+                      : "WhitePaper AI"}
+                  </h5>
                 </div>
-
-                <div className="flex-grow-1 p-2 overflow-auto mt-4">
+                <div className="card-body d-flex flex-column p-2 overflow-auto">
                   {chatLog.map((message, index) => (
                     <div
                       key={index}
@@ -152,12 +154,11 @@ const ServiceDetail = () => {
                     </div>
                   )}
                 </div>
-
-                <div className="p-2">
+                <div className="card-footer p-2">
                   <form onSubmit={handleSubmit} className="d-flex">
                     <input
                       type="text"
-                      className="form-control flex-grow-1 bg-transparent text-white border border-dark rounded"
+                      className="form-control white-placeholder flex-grow-1  border border-dark rounded"
                       placeholder="Type your message..."
                       value={inputValue}
                       onChange={(e) => {
@@ -169,15 +170,16 @@ const ServiceDetail = () => {
                       type="submit"
                       className="btn btn-primary rounded px-4 py-2 font-weight-bold ml-2"
                     >
-                      <i class="fa-regular fa-paper-plane"></i>
+                      <i className="fa-regular fa-paper-plane"></i>
                     </button>
                   </form>
+                  {isEmpty && (
+                    <p className="text-danger mt-2">Message is required!</p>
+                  )}
                 </div>
-                {isEmpty && <p className="text-danger">Message is required!</p>}
               </div>
             </div>
           </div>
-          {/* Main End */}
         </div>
       </div>
       <Footer showContact={false} />
