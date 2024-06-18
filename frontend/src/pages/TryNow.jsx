@@ -8,9 +8,10 @@ const ServiceDetail = () => {
     databeast: "https://databeastapp.techhimalaya.com.np/chat/",
     bitcoin: "https://databeastapp.techhimalaya.com.np/bitcoin/",
     ethereum: "https://databeastapp.techhimalaya.com.np/ethereum/",
+    multimodal: "https://databeastapp.techhimalaya.com.np/multimodal/",
   };
 
-  const [activeModel, setActiveModel] = useState("whitepaper");
+  const [activeModel, setActiveModel] = useState("databeast");
   const [inputValue, setInputValue] = useState("");
   const [chatLog, setChatLog] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
