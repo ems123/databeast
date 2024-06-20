@@ -8,7 +8,12 @@ const ServiceDetail = () => {
     databeast: "https://databeastapp.techhimalaya.com.np/chat/",
     bitcoin: "https://databeastapp.techhimalaya.com.np/bitcoin/",
     ethereum: "https://databeastapp.techhimalaya.com.np/ethereum/",
-    multimodal: "https://databeastapp.techhimalaya.com.np/multimodal/",
+    matic: "https://databeastapp.techhimalaya.com.np/matic/",
+    cardano: "https://databeastapp.techhimalaya.com.np/cardano/",
+    binance: "https://databeastapp.techhimalaya.com.np/binance/",
+    solana: "https://databeastapp.techhimalaya.com.np/solana/",
+    ripple: "https://databeastapp.techhimalaya.com.np/ripple/",
+
   };
 
   const [activeModel, setActiveModel] = useState("databeast");
