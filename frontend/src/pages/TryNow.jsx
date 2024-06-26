@@ -13,6 +13,7 @@ const ServiceDetail = () => {
     binance: "https://databeastapp.techhimalaya.com.np/binance/",
     solana: "https://databeastapp.techhimalaya.com.np/solana/",
     ripple: "https://databeastapp.techhimalaya.com.np/ripple/",
+    cryptoAI: "https://databeastapp.techhimalaya.com.np/cryptoprice/"
 
   };
 
@@ -71,7 +72,10 @@ const ServiceDetail = () => {
         { type: "system", message: botResponse },
       ]);
     } catch (error) {
-      console.error("Error:", error);
+      console.error(
+        
+        
+      );
     } finally {
       setIsLoading(false);
     }
@@ -84,7 +88,7 @@ const ServiceDetail = () => {
         className="container welcome_content"
         style={{ marginTop: 100, marginBottom: 100 }}
       >
-        <h3 className="text-white text-center py-2 ml-4">WhitePaper AI</h3>
+        <h3 className="text-white text-center py-2 ml-2">WhitePaper AI</h3>
         <h5 className="text-white text-center py-2">
           {activeModel !== "whitepaper"}
         </h5>
@@ -103,12 +107,13 @@ const ServiceDetail = () => {
                     style={{
                       cursor: "pointer",
                       backgroundColor:
-                        activeModel === key ? "#0056b3" : "#0d003b",
+                        activeModel === key ? "#0056b3" : "#0d013b",
                       borderColor: activeModel === key ? "#0056b3" : "#0d003b",
                       color: "#FFFFFF",
-                      paddingLeft: "15px", // Adjust padding-left to cover the text
+                      paddingLeft: "39px", // Adjust padding-left to cover the text
                       paddingRight: "15px", // Adjust padding-right to cover the text
                       marginBottom: "5px", // Add margin-bottom for spacing between items
+                      borderRadius: '35px'
                     }}
                   >
                     {key.charAt(0).toUpperCase() + key.slice(1)}

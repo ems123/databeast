@@ -16,6 +16,7 @@ const ServiceDetail = () => {
         <img className="pt-5 pb-3" src={CryptoDetailImg}></img>
         <div style={{ margin: auto, textAlign: "justify" }}>
           <p className="text-white" style={{ marginTop: 20 }}>
+            
             Generative AI boosts agricultural productivity by predicting crop
             yields using environmental and historical data. It identifies
             potential pest and disease threats, enabling proactive management.
@@ -24,6 +25,7 @@ const ServiceDetail = () => {
             plant breeding, accelerating the development of disease-resistant
             varieties. Additionally, AI models enhance supply chain eCiciency,
             ensuring timely distribution and reduced waste.
+
             <br />
             <br />
             <h2> How can Generative AI be applied in Agriculture ?</h2>
