@@ -26,5 +26,9 @@ export const MenuInfo = [
 	{
 		path:"#contact",
 		nameLink:'Contact'
+	},
+	{
+		path:"#crypto",
+		nameLink:'Crypto'
 	}
 ]

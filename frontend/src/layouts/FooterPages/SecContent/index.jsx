@@ -5,11 +5,11 @@ const SecContent = () => {
           <div className="contact_info_area d-sm-flex justify-content-between">
             <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.2s">
               <h5>NAVIGATE</h5>
-              <a href><p>HOME</p></a>
-              <a href><p>ABOUT</p></a>
-              <a href><p>SERVICES</p></a>
-              <a href><p>ROADMAP</p></a>
-              <a href><p>TEAM</p></a>
+              <a  href="https://databeast.ai">HOME</a>
+              <a href="https://databeast.ai/#about"><p>ABOUT</p></a>
+              <a href="https://databeast.ai/#services"><p>SERVICES</p></a>
+              <a href="https://databeast.ai/#roadmap"><p>ROADMAP</p></a>
+              <a href="https://databeast.ai/#team"><p>TEAM</p></a>
             </div>
             {/* Content Info */}
             <div className="contact_info text-center wow fadeInUp" data-wow-delay="0.3s">

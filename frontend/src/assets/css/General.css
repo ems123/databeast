@@ -618,11 +618,11 @@ ol {
     text-transform: uppercase;
     line-height: 33px;
     padding: 0 20px;
-    min-width: 100px;
+    min-width: 120px;
     height: 35px;
     border-radius: 50px;
     border: 2px solid;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     border-color: #7450fe;
 }
 

@@ -5,7 +5,7 @@ const SectionHeading = ({title , text}) => {
   return (
     <div className="section-heading text-center">
         <div className="dream-dots justify-content-center" data-aos="fade-up" data-aos-delay='200'>
-            {Array(7).fill().map((item , key) => (
+            {Array(8).fill().map((item , key) => (
                     <Span key={key} />
                 ))}
         </div>

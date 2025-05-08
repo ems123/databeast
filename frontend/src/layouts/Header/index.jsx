@@ -9,6 +9,32 @@ import "./header.css";
 import Preloader from "../../components/Preloader";
 
 const Header = () => {
+  
+
+  function toggleDropdown(event) {
+    event.preventDefault(); // Prevent default link behavior
+    const dropdownMenu = event.target.nextElementSibling; // Get the dropdown menu
+    
+    const parent = event.currentTarget.parentElement;
+    parent.classList.toggle('open');
+  
+    // Close other open dropdowns
+    document.querySelectorAll('.dropdown1').forEach(item => {
+      if (item !== parent) {
+        item.classList.remove('open');
+      }
+    });
+  }
+  
+  // Close dropdowns when clicking outside
+  document.addEventListener('click', (event) => {
+    if (!event.target.closest('.dropdown1')) {
+      document.querySelectorAll('.dropdown1').forEach(item => item.classList.remove('open'));
+    }
+  });
+  
+  
+
   useEffect(() => {
     Addshrink();
   }, []);
@@ -59,7 +85,7 @@ const Header = () => {
                       </a>
                     </li>
                     <li>
-                      <a onClick={moveSmooth} href="#about">
+                      <a onClick={moveSmooth}  href="https://databeast.ai/#about"/* href={`${window.location.origin}#about`} */>
                         About
                       </a>
                     </li>
@@ -76,9 +102,10 @@ const Header = () => {
                     <li>
                       <a
                         onClick={moveSmooth}
-                        href="https://databeast.ai/whitepaper.pdf"
+                      
+                        href="/Whitepaper.pdf" target="_blank" rel="noopener noreferrer"
                       >
-                        White Paper
+                        WhitePaper
                       </a>
                     </li>
                     <li>
@@ -91,9 +118,24 @@ const Header = () => {
                         Contact
                       </a>
                     </li>
+                    <li class="dropdown1">
+  <a href="" onClick={(e) => toggleDropdown(e)}>Products</a>
+  <ul class="dropdown-menu2">
+    <li><a href="https://crypto.databeast.ai/">Crypto AI</a></li>
+    <li><a href="https://databeast.ai/try-now">Whitepaper AI</a></li>
+    <li style={{whiteSpace:"nowrap"}}><a href="https://crypto.databeast.ai/blockexplorer">Crypto Explorer</a></li>
+  </ul>
+</li>
+
+                    {/* <li>
+                      <a onClick={moveSmooth} href="https://crypt-databeast-ai.web.app/">
+                        Crypto AI
+                      </a>
+                    </li> */}
+                    
                   </ul>
                   <a href="/try-now" className="btn login-btn ml-50">
-                    Try Now
+                  Whitepaper AI
                   </a>
                 </div>
               </div>

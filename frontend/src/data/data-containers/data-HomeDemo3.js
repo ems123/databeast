@@ -54,7 +54,7 @@ import {
 export const VerticalSocial = [
     {nameIco:'fa-brands fa-telegram', link: 'https://t.me/databeast_ai'},
     {nameIco:'fa-brands fa-discord', link:'https://discord.com/invite/6uBjGKSU5G'},
-    {nameIco:'fa-brands fa-facebook', link:'https://www.facebook.com/databeast_ai'},
+    /* {nameIco:'fa-brands fa-facebook', link:'https://www.facebook.com/databeast_ai'}, */
     {nameIco:'fa-brands fa-twitter', link:'https://twitter.com/databeast_ai'},
     {nameIco:'fa-brands fa-instagram', link:'https://www.instagram.com/databeast_ai'},
     

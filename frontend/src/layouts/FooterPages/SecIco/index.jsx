@@ -13,7 +13,7 @@ const SecIco = ({logo}) => {
             </div>
             {/* Social Icon */}
             <div className="footer-social-info wow fadeInUp" data-wow-delay="0.4s">
-              <a href="https://www.facebook.com/databeast_ai"><i className="fa-brands fa-facebook" aria-hidden="true" /></a>
+              {/* <a href="https://www.facebook.com/databeast_ai"><i className="fa-brands fa-facebook" aria-hidden="true" /></a> */}
               <a href="https://twitter.com/databeast_ai"> <i className="fa-brands fa-twitter" aria-hidden="true" /></a>
               <a href="https://discord.com/invite/6uBjGkSU5G"> <i className="fa-brands fa-discord" aria-hidden="true" /></a>
               <a href="https://www.instagram.com/databeast_ai"><i className="fa-brands fa-instagram" aria-hidden="true" /></a>

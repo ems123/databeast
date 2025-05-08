@@ -2,18 +2,20 @@ import React, { useState } from "react";
 import Header from "../layouts/Header";
 import Footer from "../layouts/FooterPages";
 import axios from "axios";
+import https from "https"; 
 
 const ServiceDetail = () => {
   const DEMO_MODELS_LIST = {
-    databeast: "https://databeastapp.techhimalaya.com.np/chat/",
-    bitcoin: "https://databeastapp.techhimalaya.com.np/bitcoin/",
-    ethereum: "https://databeastapp.techhimalaya.com.np/ethereum/",
-    matic: "https://databeastapp.techhimalaya.com.np/matic/",
-    cardano: "https://databeastapp.techhimalaya.com.np/cardano/",
-    binance: "https://databeastapp.techhimalaya.com.np/binance/",
-    solana: "https://databeastapp.techhimalaya.com.np/solana/",
-    ripple: "https://databeastapp.techhimalaya.com.np/ripple/",
-    cryptoAI: "https://databeastapp.techhimalaya.com.np/cryptoprice/"
+    databeast: "https://apigateway-1.azure-api.net/chat/",
+    bitcoin: "https://apigateway-1.azure-api.net/",
+
+    ethereum: "https://apigateway-1.azure-api.net/ethereum/",
+    matic: "https://apigateway-1.azure-api.net/matic/",
+    cardano: "https://apigateway-1.azure-api.net/cardano/",
+    binance: "https://apigateway-1.azure-api.net/binance/",
+    solana: "https://apigateway-1.azure-api.net/solana/",
+    ripple: "https://apigateway-1.azure-api.net/ripple/",
+    cryptoAI: "https://apigateway-1.azure-api.net/cryptoprice/"
 
   };
 
@@ -63,9 +65,18 @@ const ServiceDetail = () => {
       Authorization: `Bearer ${apiKey}`,
     };
 
+    const agent = new https.Agent({ rejectUnauthorized: false })
+  //   const agent = new https.Agent({
+  //     ca: fs.readFileSync("../assets/nginx-selfsigned.crt"), // Path to self-signed cert
+  // });
+
+
     try {
       setIsLoading(true);
-      const response = await axios.post(url, data, { headers });
+     
+  
+      const response = await axios.post(url, data, { headers, httpsAgent: agent });
+      // const response = await axios.post(url, data, { headers });
       const botResponse = response.data.answer;
       setChatLog((prevChatLog) => [
         ...prevChatLog,
@@ -88,6 +99,11 @@ const ServiceDetail = () => {
         className="container welcome_content"
         style={{ marginTop: 100, marginBottom: 100 }}
       >
+        <h5 className="text-white text-center py-2 ml-2">Hello, welcome to the Databeast AI power!! Here
+you can browse several crypto whitepapers using
+a simple  &nbsp;&nbsp;Q &amp; A !! Ask something like, Tokenomics
+or Team behind the crypto or even what is the
+usage!! </h5>
         <h3 className="text-white text-center py-2 ml-2">WhitePaper AI</h3>
         <h5 className="text-white text-center py-2">
           {activeModel !== "whitepaper"}
